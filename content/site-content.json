@@ -1,0 +1,1296 @@
+{
+  "schema_version": "1.1",
+  "generated_on": "2026-09-23",
+  "status": "v1.1 derived from approved 1.0 by owner-authorised patch; Alan sign-off recommended before publication",
+  "direction": "Real UI, editorially recomposed",
+  "copy": {
+    "full_file_sha256": "f12babf4e2329633eec52496417e23b99130e0bf6a7ebc24b070d2ab583c3edc",
+    "visible_copy_sha256": "7a735e7c472056619f2ef7698bb57fe193961a05972d65413ef0bd7c626f5dda",
+    "visible_string_count": 276,
+    "verification_sha256": "d609b9985955eb93b32dbd9fa0900e4ca36d4a1078e62b32879cf1a9f0f3ca7a",
+    "sections": [
+      {
+        "id": "P00",
+        "title": "Navigation",
+        "items": [
+          {
+            "id": "TV.RUI.P00.brand",
+            "text": "Teamvista"
+          },
+          {
+            "id": "TV.RUI.P00.product",
+            "text": "Product"
+          },
+          {
+            "id": "TV.RUI.P00.workflow",
+            "text": "How review works"
+          },
+          {
+            "id": "TV.RUI.P00.pricing",
+            "text": "Pricing & scope"
+          },
+          {
+            "id": "TV.RUI.P00.storage",
+            "text": "Storage & access"
+          },
+          {
+            "id": "TV.RUI.P00.fit",
+            "text": "Fit & no-fit"
+          },
+          {
+            "id": "TV.RUI.P00.readiness",
+            "text": "Before rollout"
+          },
+          {
+            "id": "TV.RUI.P00.faq",
+            "text": "Questions"
+          },
+          {
+            "id": "TV.RUI.P00.evaluation",
+            "text": "Evaluation"
+          },
+          {
+            "id": "TV.RUI.P00.cta",
+            "text": "Request a fit-and-technical evaluation"
+          },
+          {
+            "id": "TV.RUI.P00.menu-open",
+            "text": "Menu"
+          },
+          {
+            "id": "TV.RUI.P00.menu-close",
+            "text": "Close menu"
+          }
+        ]
+      },
+      {
+        "id": "P01",
+        "title": "Hero, first offer statement, and product evidence",
+        "items": [
+          {
+            "id": "TV.RUI.P01.eyebrow",
+            "text": "Work-evidence review software for distributed service companies"
+          },
+          {
+            "id": "TV.RUI.P01.h1",
+            "text": "Review the context before you start the conversation."
+          },
+          {
+            "id": "TV.RUI.P01.lead",
+            "text": "Teamvista brings attendance, recorded activity, screenshots, and exceptions into one review workflow for owners and managers."
+          },
+          {
+            "id": "TV.RUI.P01.body",
+            "text": "An idle alert or attendance gap can raise a question. Teamvista brings attendance, recorded activity, screenshots, and exceptions into one review workflow—so owners and managers can inspect the available context before following up."
+          },
+          {
+            "id": "TV.RUI.P01.fit",
+            "text": "For owners and operations leaders at Windows-first service companies that have 40–80 tracked people and already use transparent screenshot-based review."
+          },
+          {
+            "id": "TV.RUI.P01.descriptor",
+            "text": "Screenshot and activity monitoring organized around manager review and human follow-up."
+          },
+          {
+            "id": "TV.RUI.P01.cta",
+            "text": "Request a fit-and-technical evaluation"
+          },
+          {
+            "id": "TV.RUI.P01.support",
+            "text": "Bring one recent review question and the requirements a replacement would need to meet. A request does not grant production access."
+          },
+          {
+            "id": "TV.RUI.P01.secondary",
+            "text": "See how the review works"
+          },
+          {
+            "id": "TV.RUI.P01.price",
+            "text": "$2,000/year proposed"
+          },
+          {
+            "id": "TV.RUI.P01.accounts",
+            "text": "The proposed software scope includes unlimited tracked team-member accounts, with no per-seat software pricing."
+          },
+          {
+            "id": "TV.RUI.P01.exclusions",
+            "text": "Customer-provided storage and infrastructure costs are separate. Unlimited does not include storage, retention, bandwidth, environments, onboarding, support, or processing capacity."
+          },
+          {
+            "id": "TV.RUI.P01.caption",
+            "text": "Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test."
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "title": "The review problem",
+        "items": [
+          {
+            "id": "TV.RUI.P02.eyebrow",
+            "text": "From a flag to a useful question"
+          },
+          {
+            "id": "TV.RUI.P02.h2",
+            "text": "You have a record. Do you have the context?"
+          },
+          {
+            "id": "TV.RUI.P02.body",
+            "text": "An idle alert tells you a period needs attention. An attendance gap raises a question about the schedule. A screenshot shows one moment. None of them gives you the whole explanation."
+          },
+          {
+            "id": "TV.RUI.P02.body-two",
+            "text": "When those records sit in separate views, it is easy to start with the flag and miss what happened around it. Before asking someone to explain, examine what your records do—and do not—show."
+          },
+          {
+            "id": "TV.RUI.P02.attendance-label",
+            "text": "An attendance gap"
+          },
+          {
+            "id": "TV.RUI.P02.attendance-question",
+            "text": "What was the assigned schedule?"
+          },
+          {
+            "id": "TV.RUI.P02.alert-label",
+            "text": "An idle alert"
+          },
+          {
+            "id": "TV.RUI.P02.alert-question",
+            "text": "Which rule raised the flag, and did it fit the work?"
+          },
+          {
+            "id": "TV.RUI.P02.screenshot-label",
+            "text": "A screenshot"
+          },
+          {
+            "id": "TV.RUI.P02.screenshot-question",
+            "text": "What do the available records before and after it show?"
+          },
+          {
+            "id": "TV.RUI.P02.bridge",
+            "text": "The aim is not to collect a verdict. It is to arrive at a better question."
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "title": "The product story",
+        "items": [
+          {
+            "id": "TV.RUI.P03.eyebrow",
+            "text": "The records behind the review"
+          },
+          {
+            "id": "TV.RUI.P03.h2",
+            "text": "Bring the relevant context together; leave the judgment to people."
+          },
+          {
+            "id": "TV.RUI.P03.body",
+            "text": "Review the same period through session details, app and link chronology, break and idle history, and available screenshots. Examine the sequence around the question rather than treating an activity score as the answer."
+          },
+          {
+            "id": "TV.RUI.P03.step-1",
+            "text": "Find the period."
+          },
+          {
+            "id": "TV.RUI.P03.step-2",
+            "text": "Examine the records."
+          },
+          {
+            "id": "TV.RUI.P03.step-3",
+            "text": "Decide what to ask."
+          },
+          {
+            "id": "TV.RUI.P03.step-4",
+            "text": "Revisit the rule."
+          },
+          {
+            "id": "TV.RUI.P03.scope",
+            "text": "The sequence above is a review across product views, not a promise of automatic evidence retrieval or a complete account of someone’s work."
+          },
+          {
+            "id": "TV.RUI.P03.boundary",
+            "text": "Read recorded activity as the start of a question, not as a measure of the work — it cannot show you what happened away from the screen."
+          }
+        ]
+      },
+      {
+        "id": "P04",
+        "title": "Workflow chapter: session context",
+        "items": [
+          {
+            "id": "TV.RUI.P04.eyebrow",
+            "text": "Session context"
+          },
+          {
+            "id": "TV.RUI.P04.h2",
+            "text": "Look around the moment that raised the question."
+          },
+          {
+            "id": "TV.RUI.P04.body",
+            "text": "Teamvista’s session-detail view includes session timing, app and link chronology, break and idle history, and screenshot views. Compare the available records around the period that raised the question."
+          },
+          {
+            "id": "TV.RUI.P04.timing-label",
+            "text": "Session timing and time allocation"
+          },
+          {
+            "id": "TV.RUI.P04.timing-body",
+            "text": "Check the recorded session against the period under review."
+          },
+          {
+            "id": "TV.RUI.P04.apps-label",
+            "text": "App and link chronology"
+          },
+          {
+            "id": "TV.RUI.P04.apps-body",
+            "text": "Inspect the applications and links recorded around the question."
+          },
+          {
+            "id": "TV.RUI.P04.breaks-label",
+            "text": "Break and idle history"
+          },
+          {
+            "id": "TV.RUI.P04.breaks-body",
+            "text": "Review recorded events without assuming they explain off-screen work."
+          },
+          {
+            "id": "TV.RUI.P04.screenshots-label",
+            "text": "Available screenshots"
+          },
+          {
+            "id": "TV.RUI.P04.screenshots-body",
+            "text": "Examine the available captures before and after the flagged period."
+          },
+          {
+            "id": "TV.RUI.P04.boundary",
+            "text": "These records show you where to look. They cannot tell you intent or the quality of the work — the explanation still has to come from a conversation."
+          },
+          {
+            "id": "TV.RUI.P04.caption",
+            "text": "Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test."
+          }
+        ]
+      },
+      {
+        "id": "P05",
+        "title": "Workflow chapter: alerts and review status",
+        "items": [
+          {
+            "id": "TV.RUI.P05.eyebrow",
+            "text": "Exceptions and review status"
+          },
+          {
+            "id": "TV.RUI.P05.h2",
+            "text": "Treat the flag as a starting point—not a finding."
+          },
+          {
+            "id": "TV.RUI.P05.body",
+            "text": "Alert views include person, team, time, severity, and status filters, plus acknowledgment and resolution controls. Inspect the relevant records before deciding what a flag means."
+          },
+          {
+            "id": "TV.RUI.P05.prompt-1",
+            "text": "Check the person and period."
+          },
+          {
+            "id": "TV.RUI.P05.prompt-2",
+            "text": "Check the rule behind the alert."
+          },
+          {
+            "id": "TV.RUI.P05.prompt-3",
+            "text": "Then decide which records deserve a closer look."
+          },
+          {
+            "id": "TV.RUI.P05.boundary",
+            "text": "These controls describe review status. Saved-state behavior needs verification, and a resolved label does not prove the underlying concern was addressed."
+          },
+          {
+            "id": "TV.RUI.P05.caption",
+            "text": "Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test."
+          }
+        ]
+      },
+      {
+        "id": "P06",
+        "title": "Workflow chapter: screenshot review",
+        "items": [
+          {
+            "id": "TV.RUI.P06.eyebrow",
+            "text": "Screenshot review"
+          },
+          {
+            "id": "TV.RUI.P06.h2",
+            "text": "See the available captures. Keep the missing context in mind."
+          },
+          {
+            "id": "TV.RUI.P06.body",
+            "text": "Screenshot review includes a gallery, time navigation, filters, previews, and timelapse controls. Use available captures to examine the period that raised the question."
+          },
+          {
+            "id": "TV.RUI.P06.prompt",
+            "text": "Compare the captures with the session and app history. A single image is a reason to inspect the surrounding record—not a reason to skip the conversation."
+          },
+          {
+            "id": "TV.RUI.P06.boundary",
+            "text": "Captures are not continuous or complete. A missing screenshot does not explain what happened, and a screenshot does not establish intent."
+          },
+          {
+            "id": "TV.RUI.P06.caption",
+            "text": "Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test."
+          },
+          {
+            "id": "TV.RUI.P06.image-scope",
+            "text": "Directory view shown. No captured employee desktop content is displayed in this illustration."
+          }
+        ]
+      },
+      {
+        "id": "P07",
+        "title": "Workflow chapter: schedules, rules and patterns",
+        "items": [
+          {
+            "id": "TV.RUI.P07.eyebrow",
+            "text": "The context behind the rule"
+          },
+          {
+            "id": "TV.RUI.P07.h2",
+            "text": "A useful review starts with the work people were expected to do."
+          },
+          {
+            "id": "TV.RUI.P07.intro",
+            "text": "Check the schedule and the rule before treating an exception as a problem. The same signal can call for different questions in different jobs."
+          },
+          {
+            "id": "TV.RUI.P07.attendance-title",
+            "text": "Put attendance beside the assigned shift."
+          },
+          {
+            "id": "TV.RUI.P07.attendance-body",
+            "text": "Attendance views include clock-in and clock-out records, shift context, and present, late, absent, and leave summaries. Use the schedule as context when a start, finish, or absence needs investigation."
+          },
+          {
+            "id": "TV.RUI.P07.attendance-boundary",
+            "text": "Confirm calculations and leave or off-day behavior before relying on them operationally. These displays are not verified payroll or billing output."
+          },
+          {
+            "id": "TV.RUI.P07.rules-title",
+            "text": "Examine the rule at the right level."
+          },
+          {
+            "id": "TV.RUI.P07.rules-body",
+            "text": "Break and idle settings include department, team, role, and individual assignments. App and URL policy controls include global, department, team, and individual targets."
+          },
+          {
+            "id": "TV.RUI.P07.rules-boundary",
+            "text": "A configuration option does not establish correct saving or enforcement. Agree on appropriate workforce use and test the required behavior before rollout."
+          },
+          {
+            "id": "TV.RUI.P07.patterns-title",
+            "text": "Use patterns to frame questions, not rank people’s value."
+          },
+          {
+            "id": "TV.RUI.P07.patterns-body",
+            "text": "Activity, app-category, and peak-hour views offer recorded signals and derived indicators to inspect alongside the task and the person’s explanation."
+          },
+          {
+            "id": "TV.RUI.P07.patterns-boundary",
+            "text": "An activity percentage is not work quality. Overwork-risk indicators are not a burnout diagnosis, and neither scores nor rankings should become automated employment verdicts."
+          }
+        ]
+      },
+      {
+        "id": "P07a",
+        "title": "The record types at a glance",
+        "items": [
+          {
+            "id": "TV.RUI.P07a.h2",
+            "text": "What each record can show—and what it cannot."
+          },
+          {
+            "id": "TV.RUI.P07a.table-head",
+            "text": "| Record | What it can show | What it cannot show |"
+          },
+          {
+            "id": "TV.RUI.P07a.table-rule",
+            "text": "| --- | --- | --- |"
+          },
+          {
+            "id": "TV.RUI.P07a.row-attendance",
+            "text": "| Attendance | Clock-in and clock-out records, shift context, and present, late, absent, and leave summaries | Verified payroll or billing output; calculations and leave or off-day behavior need confirming before operational use |"
+          },
+          {
+            "id": "TV.RUI.P07a.row-activity",
+            "text": "| Recorded activity | The applications and links recorded around the question, with break and idle history | Intent, work quality, or what happened away from the screen |"
+          },
+          {
+            "id": "TV.RUI.P07a.row-screenshots",
+            "text": "| Screenshots | The available captures before and after the flagged period | A continuous or complete record, or intent |"
+          },
+          {
+            "id": "TV.RUI.P07a.row-alerts",
+            "text": "| Alerts | Person, team, time, severity, and status, with acknowledgment and resolution controls | Whether the underlying concern was addressed; saved-state behavior needs verification |"
+          }
+        ]
+      },
+      {
+        "id": "P08",
+        "title": "Human follow-up and the limit of product proof",
+        "items": [
+          {
+            "id": "TV.RUI.P08.eyebrow",
+            "text": "Where the records stop"
+          },
+          {
+            "id": "TV.RUI.P08.h2",
+            "text": "The next step is a conversation—not a verdict from an activity score."
+          },
+          {
+            "id": "TV.RUI.P08.body",
+            "text": "After examining the available records, separate what you know from what still needs an explanation. Carry that distinction into the conversation."
+          },
+          {
+            "id": "TV.RUI.P08.question",
+            "text": "What was happening during this period, and what might the records be missing?"
+          },
+          {
+            "id": "TV.RUI.P08.boundary",
+            "text": "Human follow-up happens outside the product workflow shown here; it is not a claimed conversation log or automatic decision."
+          },
+          {
+            "id": "TV.RUI.P08.proof",
+            "text": "The illustrations show product-interface structure with fictional records. They do not demonstrate successful runtime retrieval, complete capture, protected access, customer outcomes, or measured time savings."
+          },
+          {
+            "id": "TV.RUI.P08.bridge",
+            "text": "Use the evaluation to decide what the workflow would need to demonstrate for your company."
+          },
+          {
+            "id": "TV.RUI.P08.cta",
+            "text": "Request a fit-and-technical evaluation"
+          }
+        ]
+      },
+      {
+        "id": "P09",
+        "title": "The switching case",
+        "items": [
+          {
+            "id": "TV.RUI.P09.eyebrow",
+            "text": "The reason to switch"
+          },
+          {
+            "id": "TV.RUI.P09.h2",
+            "text": "Another monitoring tool needs a reason to replace the one you already have."
+          },
+          {
+            "id": "TV.RUI.P09.body-lead",
+            "text": "Start with the last review your current process struggled to handle."
+          },
+          {
+            "id": "TV.RUI.P09.body-q1",
+            "text": "Which records did your team check?"
+          },
+          {
+            "id": "TV.RUI.P09.body-q2",
+            "text": "What remained unclear?"
+          },
+          {
+            "id": "TV.RUI.P09.body-close",
+            "text": "Compare Teamvista against that gap—not against the number of dashboards in your current tool."
+          },
+          {
+            "id": "TV.RUI.P09.context-title",
+            "text": "Context"
+          },
+          {
+            "id": "TV.RUI.P09.context-body",
+            "text": "Can your team locate the relevant session, activity, and screenshots for a specific question?"
+          },
+          {
+            "id": "TV.RUI.P09.followup-title",
+            "text": "Follow-up"
+          },
+          {
+            "id": "TV.RUI.P09.followup-body",
+            "text": "Can the reviewer separate what is recorded from what still needs to be asked?"
+          },
+          {
+            "id": "TV.RUI.P09.operating-title",
+            "text": "Operating commitment"
+          },
+          {
+            "id": "TV.RUI.P09.operating-body",
+            "text": "Who handles review, endpoint rollout, access, hosting, retention, and support?"
+          },
+          {
+            "id": "TV.RUI.P09.cost-title",
+            "text": "Full cost"
+          },
+          {
+            "id": "TV.RUI.P09.cost-body",
+            "text": "How do software, provider charges, and internal effort compare with your current setup? Include how changes in tracked headcount affect your existing bill."
+          },
+          {
+            "id": "TV.RUI.P09.best-fit",
+            "text": "For a Windows-first service company already using transparent screenshot-based review, Teamvista is worth evaluating when the review workflow and the proposed flat software fee fit the problem. If you need equivalent macOS or Linux telemetry, ready-to-use AI connections, or a verified customer-controlled deployment today, those requirements are not established here."
+          },
+          {
+            "id": "TV.RUI.P09.decision",
+            "text": "If your current process already handles the job well, another dashboard is not enough reason to change. If it leaves relevant records scattered or the review difficult to carry through, evaluate Teamvista against that specific problem."
+          },
+          {
+            "id": "TV.RUI.P09.fit-link",
+            "text": "See the fit and no-fit criteria"
+          }
+        ]
+      },
+      {
+        "id": "P10",
+        "title": "Dated software list-price and model comparison",
+        "items": [
+          {
+            "id": "TV.RUI.P10.eyebrow",
+            "text": "Compare the software model"
+          },
+          {
+            "id": "TV.RUI.P10.h2",
+            "text": "A flat proposed software fee. No tracked-seat multiplier."
+          },
+          {
+            "id": "TV.RUI.P10.body",
+            "text": "At 40, 60 or 80 tracked people, Teamvista’s proposed annual software fee is $2,000. The selected plans below multiply a published seat or user rate—or a five-user pack price—by the number being tracked. That is a pricing-model difference, not a claim that the products do the same job."
+          },
+          {
+            "id": "TV.RUI.P10.accounts",
+            "text": "The proposed software scope includes unlimited tracked team-member accounts, with no per-seat software pricing."
+          },
+          {
+            "id": "TV.RUI.P10.exclusions",
+            "text": "Customer-provided storage and infrastructure costs are separate. Unlimited does not include storage, retention, bandwidth, environments, onboarding, support, or processing capacity."
+          },
+          {
+            "id": "TV.RUI.P10.table-title",
+            "text": "Selected paid entry plans · annual software list price in USD · captured 21 September 2026"
+          },
+          {
+            "id": "TV.RUI.P10.table-head",
+            "text": "| Product / selected plan and source | Pricing model and annual-billing basis | 40 tracked people | 60 tracked people | 80 tracked people |"
+          },
+          {
+            "id": "TV.RUI.P10.table-rule",
+            "text": "| --- | --- | ---: | ---: | ---: |"
+          },
+          {
+            "id": "TV.RUI.P10.row-teamvista",
+            "text": "| Teamvista — proposed software scope | Flat $2,000/year; no per-seat software pricing | $2,000 | $2,000 | $2,000 |"
+          },
+          {
+            "id": "TV.RUI.P10.row-hubstaff",
+            "text": "| [Hubstaff Starter](https://hubstaff.com/hubstaff-pricing-guide) | $4.99/paid seat/month, annual billing | $2,395.20 | $3,592.80 | $4,790.40 |"
+          },
+          {
+            "id": "TV.RUI.P10.row-timedoctor",
+            "text": "| [Time Doctor Basic](https://support.timedoctor.com/knowledge/understanding-time-doctor-pricing-plans) | $80/paid user/year | $3,200 | $4,800 | $6,400 |"
+          },
+          {
+            "id": "TV.RUI.P10.row-insightful",
+            "text": "| [Insightful Workforce Analytics](https://www.insightful.io/pricing) | $8/tracked employee/month, annual billing | $3,840 | $5,760 | $7,680 |"
+          },
+          {
+            "id": "TV.RUI.P10.row-activtrak",
+            "text": "| [ActivTrak Work Activity Tracking](https://www.activtrak.com/pricing/) | $10/worker/month, annual contract; required support above 50 licenses excluded | $4,800 | $7,200 | $9,600 |"
+          },
+          {
+            "id": "TV.RUI.P10.row-teramind",
+            "text": "| [Teramind Starter — AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-7a2h2xosenknq) | $828/year per five-user pack; AWS channel | $6,624 | $9,936 | $13,248 |"
+          },
+          {
+            "id": "TV.RUI.P10.formula-monthly",
+            "text": "For monthly rates in the annual-billing column: rate × 12 × tracked people."
+          },
+          {
+            "id": "TV.RUI.P10.formula-annual",
+            "text": "For annual per-user rates: rate × tracked people."
+          },
+          {
+            "id": "TV.RUI.P10.formula-teramind",
+            "text": "For the Teramind AWS option: round tracked people up to the next five-user pack, then multiply packs by $828/year."
+          },
+          {
+            "id": "TV.RUI.P10.formula-assumption",
+            "text": "These examples assume the stated tracked population; any additional paid owner or manager accounts are extra."
+          },
+          {
+            "id": "TV.RUI.P10.notes-heading",
+            "text": "Read these figures with the scope—not without it."
+          },
+          {
+            "id": "TV.RUI.P10.note-date",
+            "text": "Public list pricing captured 21 September 2026. Vendors change prices without notice."
+          },
+          {
+            "id": "TV.RUI.P10.note-parity",
+            "text": "Plans and capabilities are not identical. This compares software list pricing models, not total cost of ownership or feature equivalence. The rows show selected paid entry plans, not every plan, free option, custom quote or deployment."
+          },
+          {
+            "id": "TV.RUI.P10.note-costs",
+            "text": "Taxes, discounts, multi-year deals, professional services, implementation, add-ons, paid support, storage, bandwidth, and custom contracts may change actual cost. The figures exclude additional charges; they are not complete quotes."
+          },
+          {
+            "id": "TV.RUI.P10.note-teamvista",
+            "text": "Teamvista’s $2,000/year is a proposed offer. Unlimited refers to tracked team-member accounts within the agreed deployment and usage scope—not every account type or unlimited capacity. Admin-account terms, environments, fair use and renewal terms remain to be defined."
+          },
+          {
+            "id": "TV.RUI.P10.note-storage",
+            "text": "Customer-provided storage, infrastructure, retention, and processing capacity are separate from Teamvista’s proposed software fee. Bandwidth, environments, onboarding and support are not unlimited inclusions; agree their scope and costs separately."
+          },
+          {
+            "id": "TV.RUI.P10.note-activtrak",
+            "text": "ActivTrak paid plans require an annual contract. Paid support is required above 50 licenses, so the 60- and 80-person figures omit a required cost. Screen Details and other add-ons are not included. A five-license paid minimum is reported in its support materials; confirm the current requirement before buying."
+          },
+          {
+            "id": "TV.RUI.P10.note-teramind",
+            "text": "Teramind’s interactive pricing page does not expose static prices. This table uses AWS Marketplace five-user packs, not a price extracted from the calculator. Teramind’s own comparison article lists Starter at about $14/seat/month on annual billing—a different basis from the $828/year AWS pack. Do not combine those channels into one quote; confirm currency, channel and terms."
+          },
+          {
+            "id": "TV.RUI.P10.note-insightful",
+            "text": "Insightful Admin, Manager and Client seats are free unless those users are also tracked. The figures assume 40, 60 or 80 tracked employees. Higher-frequency screenshots, recording and other add-ons can change cost."
+          },
+          {
+            "id": "TV.RUI.P10.note-hubstaff",
+            "text": "Hubstaff owners and managers count as paid seats even without tracking; Project Viewer is free. Paid plans have a two-seat minimum. Non-tracking paid accounts would increase the figures shown."
+          },
+          {
+            "id": "TV.RUI.P10.note-timedoctor",
+            "text": "Time Doctor owners need a paid license even if they are not tracking; client accounts are free. Additional paid accounts and add-ons would increase the figures shown."
+          },
+          {
+            "id": "TV.RUI.P10.note-decision",
+            "text": "Choose for the workflow, operating requirements and written scope. This table does not establish a best product or a total-cost saving."
+          },
+          {
+            "id": "TV.RUI.P10.source-details",
+            "text": "Source details: [Hubstaff seat rules](https://support.hubstaff.com/per-seat-pricing/); [Time Doctor billing](https://support.timedoctor.com/knowledge/billing-faqs); [ActivTrak pricing and support](https://www.activtrak.com/pricing/); [ActivTrak plan licensing](https://support.activtrak.com/hc/en-us/articles/360027324491-ActivTrak-s-Subscription-and-Support-Plans-Licensing-and-Pricing); [Teramind pricing page](https://www.teramind.co/services/price/); [Teramind vendor article](https://www.teramind.co/blog/time-doctor-vs-teramind/); [Insightful pricing](https://www.insightful.io/pricing). Accessed 21 September 2026."
+          }
+        ]
+      },
+      {
+        "id": "P11",
+        "title": "Proposed Teamvista pricing and complete operating cost",
+        "items": [
+          {
+            "id": "TV.RUI.P11.eyebrow",
+            "text": "Proposed annual software scope"
+          },
+          {
+            "id": "TV.RUI.P11.h2",
+            "text": "Add tracked team members without adding a per-seat software charge."
+          },
+          {
+            "id": "TV.RUI.P11.price",
+            "text": "$2,000/year proposed"
+          },
+          {
+            "id": "TV.RUI.P11.accounts",
+            "text": "The proposed software scope includes unlimited tracked team-member accounts, with no per-seat software pricing."
+          },
+          {
+            "id": "TV.RUI.P11.exclusions",
+            "text": "Customer-provided storage and infrastructure costs are separate. Unlimited does not include storage, retention, bandwidth, environments, onboarding, support, or processing capacity."
+          },
+          {
+            "id": "TV.RUI.P11.body",
+            "text": "The proposal separates the software fee from the infrastructure and work needed to operate it. That gives you a specific model to evaluate—not an all-in cost promise."
+          },
+          {
+            "id": "TV.RUI.P11.scope",
+            "text": "Confirm tracked-account and admin-account scope, environments, fair use, onboarding, support, renewal, taxes and cancellation terms in writing before committing. No production access or rollout is included merely by making a request."
+          },
+          {
+            "id": "TV.RUI.P11.cost-heading",
+            "text": "Price the operating setup, not just the software."
+          },
+          {
+            "id": "TV.RUI.P11.cost-include",
+            "text": "Include the license, hosting, database, screenshot storage, endpoint rollout, support, and internal review effort."
+          },
+          {
+            "id": "TV.RUI.P11.cost-ai",
+            "text": "Assess AI costs and access separately if AI is being considered."
+          },
+          {
+            "id": "TV.RUI.P11.cost-writing",
+            "text": "Get responsibilities, limits, and exclusions in writing before deciding to proceed."
+          },
+          {
+            "id": "TV.RUI.P11.mcp-scope",
+            "text": "External MCP access remains outside the proposed founding offer until it passes a separate readiness and approval gate."
+          },
+          {
+            "id": "TV.RUI.P11.cta",
+            "text": "Request a fit-and-technical evaluation"
+          },
+          {
+            "id": "TV.RUI.P11.support",
+            "text": "Bring one recent review question and the requirements a replacement would need to meet. A request does not grant production access."
+          }
+        ]
+      },
+      {
+        "id": "P12",
+        "title": "Customer-provided storage and the access boundary",
+        "items": [
+          {
+            "id": "TV.RUI.P12.eyebrow",
+            "text": "Storage and operating responsibility"
+          },
+          {
+            "id": "TV.RUI.P12.h2",
+            "text": "Designed for customer-controlled storage."
+          },
+          {
+            "id": "TV.RUI.P12.body-model",
+            "text": "The proposed delivery model uses storage and related infrastructure that your organization provides and pays for."
+          },
+          {
+            "id": "TV.RUI.P12.body-control",
+            "text": "Screenshot storage and retention are intended to remain under your organization’s control, subject to the agreed deployment architecture."
+          },
+          {
+            "id": "TV.RUI.P12.status",
+            "text": "Proposed delivery model—not a verified current capability."
+          },
+          {
+            "id": "TV.RUI.P12.bridge",
+            "text": "Agree where the records would live, who would operate the system and what access must be allowed or denied. Make those answers part of the evaluation—not assumptions behind a hosting label."
+          },
+          {
+            "id": "TV.RUI.P12.storage-title",
+            "text": "Storage you provide"
+          },
+          {
+            "id": "TV.RUI.P12.storage-body",
+            "text": "Set the required storage, retention, bandwidth and processing scope. These costs and responsibilities are separate from the proposed software fee."
+          },
+          {
+            "id": "TV.RUI.P12.access-title",
+            "text": "Access you verify"
+          },
+          {
+            "id": "TV.RUI.P12.access-body",
+            "text": "Hosting location alone would not establish who can access records. Deployment ownership, service access, external processing, retention, and deletion need separate examination."
+          },
+          {
+            "id": "TV.RUI.P12.retention-title",
+            "text": "Retention you define—and test"
+          },
+          {
+            "id": "TV.RUI.P12.retention-body",
+            "text": "Define how long session and screenshot records are needed, who owns the policy, and what deletion must cover. Cleanup settings are a starting point for that discussion."
+          },
+          {
+            "id": "TV.RUI.P12.retention-boundary",
+            "text": "A configured retention window is not proof of deletion from every copy. Storage, backups, logs, and external processing need separate examination."
+          },
+          {
+            "id": "TV.RUI.P12.authorization",
+            "text": "Our own product review found authorization issues that are still open. They must be fixed and independently tested before any customer runs this against real workforce data. Evaluate actual access paths, external processing, retention, and deletion—not just the settings displayed on screen."
+          },
+          {
+            "id": "TV.RUI.P12.authorization-status",
+            "text": "For the current status of these issues and the access tests to require, see Before rollout."
+          }
+        ]
+      },
+      {
+        "id": "P13",
+        "title": "Fit, no-fit and buying responsibilities",
+        "items": [
+          {
+            "id": "TV.RUI.P13.eyebrow",
+            "text": "Fit for your company"
+          },
+          {
+            "id": "TV.RUI.P13.h2",
+            "text": "A fit for the review problem—and the team that has to run it."
+          },
+          {
+            "id": "TV.RUI.P13.body",
+            "text": "The initial evaluation is aimed at Windows-first service companies with 40–80 tracked people and an existing transparent screenshot-review process. Bring a recent review problem, the budget owner, and the people responsible for technical deployment and workforce policy."
+          },
+          {
+            "id": "TV.RUI.P13.fit-title",
+            "text": "Worth evaluating when…"
+          },
+          {
+            "id": "TV.RUI.P13.fit-one",
+            "text": "You already use transparent screenshot-based review and can name a recent question your current process struggled to handle."
+          },
+          {
+            "id": "TV.RUI.P13.fit-two",
+            "text": "Your capture requirements are Windows-first, and you can assess the workstation behavior before rollout."
+          },
+          {
+            "id": "TV.RUI.P13.fit-three",
+            "text": "You want to assess a flat software fee alongside customer-provided infrastructure and clearly assigned operating responsibilities."
+          },
+          {
+            "id": "TV.RUI.P13.no-fit-title",
+            "text": "Not the right starting point when…"
+          },
+          {
+            "id": "TV.RUI.P13.no-fit-one",
+            "text": "You want covert monitoring, an automatic verdict about an employee, or a score that stands in for work quality."
+          },
+          {
+            "id": "TV.RUI.P13.no-fit-two",
+            "text": "You require established macOS/Linux telemetry parity, capture on more than three monitors, ready-to-use AI integrations, or a verified vendor-inaccessible deployment now."
+          },
+          {
+            "id": "TV.RUI.P13.no-fit-three",
+            "text": "You need an all-inclusive managed service or guaranteed total-cost saving rather than an evaluation of written software and operating scope."
+          },
+          {
+            "id": "TV.RUI.P13.boundary",
+            "text": "Teamvista is not a fit for covert monitoring or automated employment decisions. Purchasing software does not establish workforce acceptance or legal approval."
+          },
+          {
+            "id": "TV.RUI.P13.owners-title",
+            "text": "Owners and operations"
+          },
+          {
+            "id": "TV.RUI.P13.owners-body",
+            "text": "Bring the review problem that could justify a switch. Decide what a replacement must demonstrate—not just what it must cost."
+          },
+          {
+            "id": "TV.RUI.P13.managers-title",
+            "text": "Managers"
+          },
+          {
+            "id": "TV.RUI.P13.managers-body",
+            "text": "Identify the person, period and records needed to prepare a specific question. Keep human follow-up separate from an alert status."
+          },
+          {
+            "id": "TV.RUI.P13.hr-title",
+            "text": "HR and workforce"
+          },
+          {
+            "id": "TV.RUI.P13.hr-body",
+            "text": "Define the purpose of collection, what workers are told, and how they can question a record."
+          },
+          {
+            "id": "TV.RUI.P13.it-title",
+            "text": "IT and security"
+          },
+          {
+            "id": "TV.RUI.P13.it-body",
+            "text": "Assess endpoints, access paths, external processing, retention and deletion. Require remediation and independent access testing before real workforce data is used."
+          },
+          {
+            "id": "TV.RUI.P13.finance-title",
+            "text": "Finance and procurement"
+          },
+          {
+            "id": "TV.RUI.P13.finance-body",
+            "text": "Compare the written software scope, infrastructure charges, onboarding, support and internal effort. A lower license fee alone is not a lower total cost."
+          }
+        ]
+      },
+      {
+        "id": "P13a",
+        "title": "What you will need from your side",
+        "items": [
+          {
+            "id": "TV.RUI.P13a.h2",
+            "text": "What to bring from your side."
+          },
+          {
+            "id": "TV.RUI.P13a.intro",
+            "text": "You can describe each item without sharing employee records."
+          },
+          {
+            "id": "TV.RUI.P13a.item-question",
+            "text": "One recent review question: the period, the records your team checked, and what remained unclear."
+          },
+          {
+            "id": "TV.RUI.P13a.item-requirements",
+            "text": "The requirements a replacement would need to meet, including the workstation behavior your capture depends on."
+          },
+          {
+            "id": "TV.RUI.P13a.item-cost",
+            "text": "Your current bill, and how changes in tracked headcount affect it."
+          }
+        ]
+      },
+      {
+        "id": "P14",
+        "title": "Trust and operating readiness",
+        "items": [
+          {
+            "id": "TV.RUI.P14.eyebrow",
+            "text": "Before rollout"
+          },
+          {
+            "id": "TV.RUI.P14.h2",
+            "text": "Know what must be true before you put real records into it."
+          },
+          {
+            "id": "TV.RUI.P14.body",
+            "text": "A useful review screen is only part of the decision. Establish who would operate the system, what behavior needs testing, and which costs belong in the comparison."
+          },
+          {
+            "id": "TV.RUI.P14.windows-heading",
+            "text": "Check the Windows workflow."
+          },
+          {
+            "id": "TV.RUI.P14.windows-body",
+            "text": "Teamvista’s desktop capture workflow is Windows-first. Equivalent macOS and Linux telemetry is not established. Capture with more than three monitors is outside this evaluation’s desktop scope."
+          },
+          {
+            "id": "TV.RUI.P14.windows-detail",
+            "text": "The implementation skips capture when a workstation is locked or has more than three monitors. A download or version listing does not establish feature parity or a successful update."
+          },
+          {
+            "id": "TV.RUI.P14.access-heading",
+            "text": "Resolve access before introducing customer records."
+          },
+          {
+            "id": "TV.RUI.P14.access-body",
+            "text": "Our own product review found authorization issues that are still open. They must be fixed and independently tested before any customer runs this against real workforce data. Evaluate actual access paths, external processing, retention, and deletion—not just the settings displayed on screen."
+          },
+          {
+            "id": "TV.RUI.P14.controls",
+            "text": "The HR application includes role and assignment controls and multi-factor authentication settings. Their presence does not establish protected access across the backend, screenshot, and AI/MCP paths."
+          },
+          {
+            "id": "TV.RUI.P14.tests",
+            "text": "Examine review screens, backend services, administrative access, screenshot links and AI tools. Require evidence for allowed access and for attempts that must be denied."
+          },
+          {
+            "id": "TV.RUI.P14.workforce-heading",
+            "text": "Make transparent use a requirement."
+          },
+          {
+            "id": "TV.RUI.P14.workforce-body",
+            "text": "Define an appropriate collection purpose, workforce notice, and a way to question records. A software purchase, an internal-use example, or an evaluation request does not provide legal approval or workforce consent."
+          },
+          {
+            "id": "TV.RUI.P14.operations-heading",
+            "text": "Assign the work behind the workflow."
+          },
+          {
+            "id": "TV.RUI.P14.operations-body",
+            "text": "Identify who would roll out endpoints, maintain application and infrastructure services, manage access, review exceptions and handle support. Agree what your team owns and what any written delivery scope includes."
+          }
+        ]
+      },
+      {
+        "id": "P15",
+        "title": "AI/MCP maturity, separate from the core offer",
+        "items": [
+          {
+            "id": "TV.RUI.P15.eyebrow",
+            "text": "Platform · Private evaluation"
+          },
+          {
+            "id": "TV.RUI.P15.h2",
+            "text": "Explore AI-assisted review. Keep the judgment with people."
+          },
+          {
+            "id": "TV.RUI.P15.body",
+            "text": "Start with a work-review question, then evaluate how an AI tool would use the relevant records. Teamvista’s external MCP interface and owner-facing assistant are separate evaluation surfaces—not ready-to-use integrations or automated decisions about people."
+          },
+          {
+            "id": "TV.RUI.P15.mcp-label",
+            "text": "MCP interface for AI tools — Private Preview"
+          },
+          {
+            "id": "TV.RUI.P15.mcp-body",
+            "text": "Teamvista includes a Model Context Protocol (MCP) server interface, currently in private evaluation. Its implementation defines six tools for review data. Client connections and live tool behavior have not been verified."
+          },
+          {
+            "id": "TV.RUI.P15.tools-title",
+            "text": "Tools defined in the implementation"
+          },
+          {
+            "id": "TV.RUI.P15.tool-1",
+            "text": "get_employees_list"
+          },
+          {
+            "id": "TV.RUI.P15.tool-2",
+            "text": "get_employee_metrics"
+          },
+          {
+            "id": "TV.RUI.P15.tool-3",
+            "text": "get_employee_logs"
+          },
+          {
+            "id": "TV.RUI.P15.tool-4",
+            "text": "get_screenshots_metadata"
+          },
+          {
+            "id": "TV.RUI.P15.tool-5",
+            "text": "get_screenshot_urls"
+          },
+          {
+            "id": "TV.RUI.P15.tool-6",
+            "text": "get_policy_violations"
+          },
+          {
+            "id": "TV.RUI.P15.tools-boundary",
+            "text": "These definitions cover employee records, metrics, activity logs, screenshot metadata and URL requests, and policy alerts. They do not establish working retrieval or safely scoped access."
+          },
+          {
+            "id": "TV.RUI.P15.read-only-boundary",
+            "text": "Read-only describes the implemented tool operations, not verified access control."
+          },
+          {
+            "id": "TV.RUI.P15.requirements-heading",
+            "text": "Verify the connection, access, and data flow before use."
+          },
+          {
+            "id": "TV.RUI.P15.requirements-body",
+            "text": "Compatibility with any named AI client is not established, and neither is safely scoped access to your records. Authorization issues are open; they must be fixed and independently tested before any customer runs this against real workforce data. AI processing can involve external providers; do not assume records stay within your environment."
+          },
+          {
+            "id": "TV.RUI.P15.scope",
+            "text": "External MCP access remains outside the proposed founding offer until it passes a separate readiness and approval gate."
+          },
+          {
+            "id": "TV.RUI.P15.assistant-label",
+            "text": "Owner-facing AI assistant — Internal Evaluation"
+          },
+          {
+            "id": "TV.RUI.P15.assistant-body",
+            "text": "Chat and report interfaces are present in the owner application. Their runtime behavior has not been verified. This is an owner-facing evaluation surface, not an AI assistant in the HR application."
+          },
+          {
+            "id": "TV.RUI.P15.request-boundary",
+            "text": "Requesting an evaluation does not enable an AI connection or authorize the use of workforce records."
+          }
+        ]
+      },
+      {
+        "id": "P16",
+        "title": "Complete FAQ",
+        "items": [
+          {
+            "id": "TV.RUI.P16.eyebrow",
+            "text": "Questions"
+          },
+          {
+            "id": "TV.RUI.P16.h2",
+            "text": "What to know before you evaluate."
+          },
+          {
+            "id": "TV.RUI.P16.faq-01-q",
+            "text": "We already have monitoring. Why consider Teamvista?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-01-a",
+            "text": "Start with a recent review your current process struggled to handle. Compare the records you can inspect, the follow-up required, and the full operating commitment. If your current setup already meets the need, Teamvista has to earn a reason to replace it."
+          },
+          {
+            "id": "TV.RUI.P16.faq-02-q",
+            "text": "What should we include in the cost comparison?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-02-a",
+            "text": "Compare the written software scope, provider charges, onboarding and support responsibilities, and your team’s operating effort. Assess any proposed AI usage separately. A license fee alone is not the total cost, and a different setup is not proof of savings."
+          },
+          {
+            "id": "TV.RUI.P16.faq-03-q",
+            "text": "What does Teamvista record?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-03-a",
+            "text": "The Windows desktop implementation captures periodic screenshots and records activity and app/window context. The review views include sessions, attendance, app and link history, and alerts. These are available records—not a continuous or complete account of someone’s work."
+          },
+          {
+            "id": "TV.RUI.P16.faq-04-q",
+            "text": "Is this employee monitoring?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-04-a",
+            "text": "Yes. Screenshot and activity collection are part of Teamvista. The intended fit is an existing, transparent work-review process—not covert monitoring. Define an appropriate purpose, workforce notice, and a way for people to question the records before considering rollout."
+          },
+          {
+            "id": "TV.RUI.P16.faq-05-q",
+            "text": "Can an activity score tell us who is doing good work?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-05-a",
+            "text": "No. Recorded activity does not establish intent, work quality, or everything that happens away from the screen. Activity and risk indicators are prompts for human review, not performance verdicts or health diagnoses."
+          },
+          {
+            "id": "TV.RUI.P16.faq-06-q",
+            "text": "Who can access screenshots and records?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-06-a",
+            "text": "That requires a tested answer for the intended deployment. The HR application includes role and assignment controls, but those controls do not establish protected access across the backend, screenshot, and AI/MCP paths. Unresolved authorization issues must be fixed and independently tested before any customer runs this against real workforce data."
+          },
+          {
+            "id": "TV.RUI.P16.faq-07-q",
+            "text": "Can we connect our AI tools?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-07-a",
+            "text": "The MCP interface is in Private Preview; the owner-facing assistant is in Internal Evaluation. Client interoperability and safely scoped access are not verified. External MCP access remains outside the proposed founding offer until it passes a separate readiness and approval gate."
+          },
+          {
+            "id": "TV.RUI.P16.faq-08-q",
+            "text": "Does the desktop workflow support Windows, macOS, and Linux equally?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-08-a",
+            "text": "No equivalent telemetry is established across those platforms. Start with the Windows workflow. Capture with more than three monitors is outside the current evaluation scope; confirm the behavior required by your workstations before rollout."
+          },
+          {
+            "id": "TV.RUI.P16.faq-09-q",
+            "text": "Can we host it ourselves and keep records away from vendors?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-09-a",
+            "text": "Customer-account deployment is a proposed delivery model, not a verified current capability. Hosting location alone would not establish who can access records. Deployment ownership, service access, external processing, retention, and deletion need separate examination."
+          },
+          {
+            "id": "TV.RUI.P16.faq-10-q",
+            "text": "Does an alert’s status or a settings change prove the issue is handled?"
+          },
+          {
+            "id": "TV.RUI.P16.faq-10-a",
+            "text": "No. Acknowledgment and resolution describe review status, not a solved workforce concern. Configuration controls do not establish successful saving, rule enforcement, notification delivery, or deletion. Test the behavior you need before relying on it."
+          }
+        ]
+      },
+      {
+        "id": "P17",
+        "title": "Closing evaluation invitation",
+        "items": [
+          {
+            "id": "TV.RUI.P17.eyebrow",
+            "text": "Start with one review"
+          },
+          {
+            "id": "TV.RUI.P17.h2",
+            "text": "Bring one question your current process struggles to answer."
+          },
+          {
+            "id": "TV.RUI.P17.body",
+            "text": "Describe the period, the records your team checked, and what remained unclear. Use that example to assess Teamvista’s review workflow, the requirements it would need to meet, and the operating commitment behind a switch."
+          },
+          {
+            "id": "TV.RUI.P17.preparation",
+            "text": "Keep employee names, screenshots, and confidential work content out of the initial request. You can describe the problem without sharing the records."
+          },
+          {
+            "id": "TV.RUI.P17.support",
+            "text": "A request is a starting point for evaluation—not production access, a purchase, or an approved rollout."
+          },
+          {
+            "id": "TV.RUI.P17.cta",
+            "text": "Request a fit-and-technical evaluation"
+          }
+        ]
+      },
+      {
+        "id": "P18",
+        "title": "Footer",
+        "items": [
+          {
+            "id": "TV.RUI.P18.brand",
+            "text": "Teamvista"
+          },
+          {
+            "id": "TV.RUI.P18.descriptor",
+            "text": "Work-evidence review software for distributed service companies."
+          },
+          {
+            "id": "TV.RUI.P18.product",
+            "text": "Product"
+          },
+          {
+            "id": "TV.RUI.P18.workflow",
+            "text": "How review works"
+          },
+          {
+            "id": "TV.RUI.P18.pricing",
+            "text": "Pricing & scope"
+          },
+          {
+            "id": "TV.RUI.P18.storage",
+            "text": "Storage & access"
+          },
+          {
+            "id": "TV.RUI.P18.fit",
+            "text": "Fit & no-fit"
+          },
+          {
+            "id": "TV.RUI.P18.readiness",
+            "text": "Before rollout"
+          },
+          {
+            "id": "TV.RUI.P18.faq",
+            "text": "Questions"
+          },
+          {
+            "id": "TV.RUI.P18.evaluation",
+            "text": "Evaluation"
+          }
+        ]
+      }
+    ],
+    "base_file_sha256": "2bdccd756c34603b3e32718e0ae4c52f401f38bd873b364993f5e76b0501daa8",
+    "derived_from": "copy-changes.v1.1.json (adds/edits/splits/new sections without owner placeholders)",
+    "full_file_sha256_note": "refers to the 1.0 base; recompute on sign-off",
+    "visible_copy_sha256_note": "refers to the 1.0 base; recompute on sign-off",
+    "verification_sha256_note": "refers to the 1.0 base; recompute on sign-off"
+  },
+  "assets": [
+    {
+      "id": "teamvista-mark",
+      "kind": "logo",
+      "url": "https://madsgency.communities.buzz.xyz/media/bcc98898236f2b6297eb4a5a85c885546a5501850594f4a5fbbbab2bdcac0ab2.png",
+      "sha256": "bcc98898236f2b6297eb4a5a85c885546a5501850594f4a5fbbbab2bdcac0ab2",
+      "alt": "Teamvista mark"
+    },
+    {
+      "id": "session-audit",
+      "kind": "real-interface-derived-fictional-records",
+      "url": "https://madsgency.communities.buzz.xyz/media/4c4e78678e93a3fc5b6eafd823b5cbcb544cdba150fb20a704c4bbdf4baeda31.png",
+      "sha256": "4c4e78678e93a3fc5b6eafd823b5cbcb544cdba150fb20a704c4bbdf4baeda31",
+      "source_sha256": "a6907c07127d1dfcff79f5022b0aac288954b150d1f8f7bf73a1a3c0402ff624",
+      "caption_id": "TV.RUI.P04.caption",
+      "alt": "Editorially recomposed Teamvista Session Audit Details interface with fictional records. Illustrative, not an executed product test."
+    },
+    {
+      "id": "alerts",
+      "kind": "real-interface-derived-fictional-records",
+      "url": "https://madsgency.communities.buzz.xyz/media/b40b4dc56158497823ed8f94e7e2d086cb4bb1fb36d4de8cdf15ed08f1475091.png",
+      "sha256": "b40b4dc56158497823ed8f94e7e2d086cb4bb1fb36d4de8cdf15ed08f1475091",
+      "source_sha256": "ceac038cf807b6da1f9d8f857e680f71fa9bc32d5a1ca25c55c54cb8cfbd88af",
+      "caption_id": "TV.RUI.P05.caption",
+      "alt": "Editorially recomposed Teamvista Policy Alerts & Violations interface with fictional records. Review controls are shown; successful status changes are not demonstrated."
+    },
+    {
+      "id": "screenshots-directory",
+      "kind": "real-interface-derived-fictional-records",
+      "url": "https://madsgency.communities.buzz.xyz/media/d2b177af149a5780b22907ce67afc1297b7e86af1e00300f25678e72f3d8d28d.png",
+      "sha256": "d2b177af149a5780b22907ce67afc1297b7e86af1e00300f25678e72f3d8d28d",
+      "source_sha256": "e54b731022f9a5715e2f73b96b80ae300c7a70ebfe88a68eefd754bb5dcd68d9",
+      "caption_id": "TV.RUI.P06.caption",
+      "alt": "Editorially recomposed Teamvista Employee Screenshots directory with fictional records. No captured employee desktop content is shown."
+    }
+  ],
+  "implementation_constraints": {
+    "primary_cta": "Request a fit-and-technical evaluation",
+    "cta_status": "default_pending_owner_confirmation",
+    "copy_must_not_be_shortened": true,
+    "qualifications_must_remain_adjacent": true,
+    "mobile_uses_complete_copy": true,
+    "no_invented_product_ui": true,
+    "no_customer_logos_or_testimonials": true,
+    "no_absolute_best_or_savings_claim": true,
+    "no_publication_or_deployment_authority": true
+  }
+}

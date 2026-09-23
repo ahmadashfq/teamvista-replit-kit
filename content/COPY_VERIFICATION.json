@@ -1,0 +1,1467 @@
+{
+  "status": "PASS — Alan manuscript verification only; declared freeze for independent re-gate, not build or publication clearance",
+  "revision": "1.0.2",
+  "manuscript": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_REAL_UI_LONG_PAGE_MANUSCRIPT_V1_2026_09_21.md",
+  "manuscript_sha256": "f12babf4e2329633eec52496417e23b99130e0bf6a7ebc24b070d2ab583c3edc",
+  "selected_visible_copy_sha256": "7a735e7c472056619f2ef7698bb57fe193961a05972d65413ef0bd7c626f5dda",
+  "canonical_extraction": "Only lines beginning > SPACE between the single RENDER_COPY_START/END comments; remove prefix; preserve all other characters including Markdown; join LF and append one LF. Appendix C is separate.",
+  "supersedes": {
+    "manuscript_sha256": "f86a6b7443944d4fb5a2cd5f60b9228d851ef9b659d6058a4ce39496827e2dc1",
+    "selected_visible_copy_sha256": "5e237b640c1f63d8e4fe4b4d62557df4e7a389fdd761b4ae6d5913679fa082d9",
+    "status": "superseded by authorized B1/B2/revised-B3 corrections; prior claim PASS remains scoped to prior bytes and is not build clearance"
+  },
+  "review_bindings": {
+    "copy_chief": {
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_LONG_PAGE_COPY_CHIEF_REVIEW_2026_09_21.md",
+      "sha256": "0089d0170531b72f4306afafa538229bede52751fd4bb938d135943b2c617675"
+    },
+    "B3_addendum": {
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_LONG_PAGE_COPY_CHIEF_REVIEW_ADDENDUM_B3_2026_09_21.md",
+      "sha256": "fe4261bf393dcc0f7db096e734a940eb6d413e876e27c73d468359dfe2d0a541"
+    },
+    "challenger_checklist_event": "5b64fd3d1f7e4bba342ba82e2299b32eb7f9a28080c24c204974e6f26b029f6c"
+  },
+  "change_receipt": {
+    "type": "B1/B2/revised B3; receipt-only finalization",
+    "added_visible_ids": [
+      "TV.RUI.P08.cta"
+    ],
+    "text_changed_ids": [
+      "TV.RUI.P04.body",
+      "TV.RUI.P14.windows-body",
+      "TV.RUI.P15.body",
+      "TV.RUI.P16.faq-02-a",
+      "TV.RUI.P16.faq-03-a",
+      "TV.RUI.P16.faq-10-q",
+      "TV.RUI.P17.body"
+    ],
+    "order_only_change": {
+      "section": "P17",
+      "from": [
+        "eyebrow",
+        "h2",
+        "body",
+        "preparation",
+        "cta",
+        "support"
+      ],
+      "to": [
+        "eyebrow",
+        "h2",
+        "body",
+        "preparation",
+        "support",
+        "cta"
+      ]
+    },
+    "glyph_rule": "U+0027 → U+2019 only, over the seven explicitly named frozen-original rows",
+    "em_dash_changes": 0,
+    "new_copy_decisions_in_finalization": false,
+    "R1_R4_dispositions": {
+      "R1": {
+        "disposition": "Deferred; not applied",
+        "reason": "Preserve all three identical accounts strings in the blocker-only revision. Any later authorized change must move P01/P10/P11 together and reconcile the ledger.",
+        "ids": [
+          "TV.RUI.P01.accounts",
+          "TV.RUI.P10.accounts",
+          "TV.RUI.P11.accounts"
+        ]
+      },
+      "R2": {
+        "disposition": "Deferred; not applied",
+        "reason": "Retain all six exact tool names and adjacent maturity/access qualifiers. Compact technical presentation remains a separate design decision; no copy deletion authorized.",
+        "ids": [
+          "TV.RUI.P15.tool-1",
+          "TV.RUI.P15.tool-2",
+          "TV.RUI.P15.tool-3",
+          "TV.RUI.P15.tool-4",
+          "TV.RUI.P15.tool-5",
+          "TV.RUI.P15.tool-6"
+        ]
+      },
+      "R3": {
+        "disposition": "Deferred beyond B2",
+        "reason": "Only P17 support/CTA reorder applied. No additional section endings reordered and no qualification removed."
+      },
+      "R4": {
+        "disposition": "Retain local disclosures; proposed cut not applied",
+        "reason": "Storage and readiness each retain their access qualification. No disclosure relocation or reduction without a separately approved scope."
+      }
+    },
+    "manuscript_unchanged_during_finalization": true
+  },
+  "counts": {
+    "visible_strings": 241,
+    "source_exact_strings": 89,
+    "source_glyph_normalized_strings": 7,
+    "protected_reuses": 96,
+    "new_exact_CTA_reuses_outside_original_protected_cohort": 1,
+    "glyph_codepoint_replacements": 8,
+    "ordered_sections": 19,
+    "CTA_placements": 5,
+    "caption_occurrences": 4,
+    "FAQ_pairs": 10,
+    "comparison_rows": 6,
+    "comparison_numeric_cells": 18,
+    "visible_whitespace_delimited_words": 3839,
+    "current_asset_sources": 3
+  },
+  "count_scope": "source_exact_strings counts the original 96-entry protected_reuses cohort: 89 byte-exact plus 7 declared glyph-only rows. The newly added P08 CTA is separately verified exact and not added to that denominator.",
+  "normalization": {
+    "id": "B3_U0027_TO_U2019",
+    "invariant": "byte-exact to S1 modulo declared glyph-only normalization",
+    "source_codepoint": "U+0027",
+    "target_codepoint": "U+2019",
+    "operation": "source.replace(chr(0x0027), chr(0x2019)).encode(\"utf-8\") == selected.encode(\"utf-8\")",
+    "allowed_ids": [
+      "TV.RUI.P04.body",
+      "TV.RUI.P14.windows-body",
+      "TV.RUI.P15.body",
+      "TV.RUI.P16.faq-02-a",
+      "TV.RUI.P16.faq-03-a",
+      "TV.RUI.P16.faq-10-q",
+      "TV.RUI.P17.body"
+    ],
+    "other_normalization_allowed": false
+  },
+  "checks": {
+    "unique_ids": true,
+    "complete_section_order": true,
+    "protected_source_matches_exact_or_declared_glyph_only": true,
+    "protected_unchanged_subset_byte_exact": true,
+    "seven_string_modulo_check": true,
+    "glyph_rows_zero_other_delta": true,
+    "spaced_em_dashes_byte_exact_to_S1": true,
+    "full_FAQ_order_and_answers_except_declared_glyphs": true,
+    "exact_default_CTA": true,
+    "CTA_register_matches_five_placements": true,
+    "P08_CTA_immediately_after_bridge_and_bare": true,
+    "P17_support_then_CTA": true,
+    "zero_other_visible_region_delta": true,
+    "mandatory_caption_preserved_each_occurrence": true,
+    "proposed_price_account_scope_exclusions_adjacent": true,
+    "comparison_decimal_math_matches_packet": true,
+    "source_hashes_unchanged": true,
+    "corrected_asset_hashes_match_supplied": true,
+    "accessibility_metadata_unchanged": true,
+    "no_placeholder_copy_or_savings_percentage": true,
+    "B1_distribution_improved": true,
+    "Appendix_B_narrative_records_B1_B2_revised_B3": true,
+    "R1_R4_dispositions_recorded": true,
+    "manuscript_unmodified_in_finalization": true
+  },
+  "retired_check": {
+    "name": "protected_source_exact_matches",
+    "reason": "Replaced rather than silently asserting all 96 rows remain byte-exact. Named exact-subset and glyph-only invariants are verified separately."
+  },
+  "challenger_eight_point_checklist": [
+    {
+      "item": 1,
+      "status": "PASS",
+      "finding": "Full and visible identities freshly recomputed from final bytes."
+    },
+    {
+      "item": 2,
+      "status": "PASS",
+      "finding": "Companion pins final identity; 241 visible strings, five CTA placements, 89 exact protected strings."
+    },
+    {
+      "item": 3,
+      "status": "PASS",
+      "finding": "Seven declared U+0027 to U+2019 row transformations byte-equal final strings; no other row delta."
+    },
+    {
+      "item": 4,
+      "status": "PASS",
+      "finding": "Both protected boundary em dashes remain source-exact and spaced."
+    },
+    {
+      "item": 5,
+      "status": "PASS",
+      "finding": "P08 CTA exactly matches registered wording and five-placement Appendix B register."
+    },
+    {
+      "item": 6,
+      "status": "PASS",
+      "finding": "P17 order is eyebrow, h2, body, preparation, support, cta."
+    },
+    {
+      "item": 7,
+      "status": "PASS",
+      "finding": "Entire visible region equals the frozen-original region plus only B1/B2/revised-B3 transforms."
+    },
+    {
+      "item": 8,
+      "status": "PASS",
+      "finding": "Old all-exact check removed and replaced with explicit exact-subset and modulo invariants."
+    }
+  ],
+  "copy_chief_additional_checks": {
+    "C1": {
+      "status": "PASS",
+      "method": "Zero-based cumulative whitespace-split word offsets over canonical visible strings; includes secondary CTA.",
+      "before": [
+        {
+          "id": "TV.RUI.P00.cta",
+          "word_offset": 12,
+          "gap_from_previous": 12
+        },
+        {
+          "id": "TV.RUI.P01.cta",
+          "word_offset": 97,
+          "gap_from_previous": 85
+        },
+        {
+          "id": "TV.RUI.P01.secondary",
+          "word_offset": 122,
+          "gap_from_previous": 25
+        },
+        {
+          "id": "TV.RUI.P11.cta",
+          "word_offset": 2174,
+          "gap_from_previous": 2052
+        },
+        {
+          "id": "TV.RUI.P17.cta",
+          "word_offset": 3798,
+          "gap_from_previous": 1624
+        }
+      ],
+      "after": [
+        {
+          "id": "TV.RUI.P00.cta",
+          "word_offset": 12,
+          "gap_from_previous": 12
+        },
+        {
+          "id": "TV.RUI.P01.cta",
+          "word_offset": 97,
+          "gap_from_previous": 85
+        },
+        {
+          "id": "TV.RUI.P01.secondary",
+          "word_offset": 122,
+          "gap_from_previous": 25
+        },
+        {
+          "id": "TV.RUI.P08.cta",
+          "word_offset": 1100,
+          "gap_from_previous": 978
+        },
+        {
+          "id": "TV.RUI.P11.cta",
+          "word_offset": 2178,
+          "gap_from_previous": 1078
+        },
+        {
+          "id": "TV.RUI.P17.cta",
+          "word_offset": 3818,
+          "gap_from_previous": 1640
+        }
+      ],
+      "old_P01_secondary_to_P11_gap": 2052,
+      "new_split_gaps": [
+        978,
+        1078
+      ],
+      "remaining_P11_to_P17_gap": 1640,
+      "remainder_disposition": "Known non-blocking remainder per Copy Chief; no extra CTA added."
+    },
+    "C2": {
+      "status": "PASS",
+      "disposition_location": "change_receipt.R1_R4_dispositions"
+    },
+    "C3": {
+      "status": "PASS",
+      "finding": "P08 CTA immediately follows bridge with no added support microcopy."
+    },
+    "C4": {
+      "status": "PASS",
+      "finding": "Appendix B narrative records revision 1.0.2, B1, B2, apostrophe-only B3 and withdrawn em-dash changes."
+    }
+  },
+  "protected_reuses": [
+    {
+      "id": "TV.RUI.P01.eyebrow",
+      "r3_group": "H01.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "a62591615a877fda2a7f33cdbb155eb6f06087d80a5699085c44b10acd32c653",
+      "selected_text_sha256": "a62591615a877fda2a7f33cdbb155eb6f06087d80a5699085c44b10acd32c653",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P01.h1",
+      "r3_group": "H01.h1",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "4ac17b42285fece312df619f729cb2fefd69e5b7ac01d6d614c8c6ad9f1dadb4",
+      "selected_text_sha256": "4ac17b42285fece312df619f729cb2fefd69e5b7ac01d6d614c8c6ad9f1dadb4",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P01.body",
+      "r3_group": "H01.body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "6bb1413dce872fb39c1f2eb0960d99a995d898a4250157fedfd47e3f3bc69588",
+      "selected_text_sha256": "6bb1413dce872fb39c1f2eb0960d99a995d898a4250157fedfd47e3f3bc69588",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P01.fit",
+      "r3_group": "H01.fit",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "c18051f0d3d40fc15a354d923482ab256f6b36c61dcd5485c4195109dc816fae",
+      "selected_text_sha256": "c18051f0d3d40fc15a354d923482ab256f6b36c61dcd5485c4195109dc816fae",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P01.descriptor",
+      "r3_group": "H01.descriptor",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "c54bc1f827437836c943dd3ec4684ade48004e908a68c61116106bd3001b6896",
+      "selected_text_sha256": "c54bc1f827437836c943dd3ec4684ade48004e908a68c61116106bd3001b6896",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P01.cta",
+      "r3_group": "H01.cta",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "1da6f2cd03e165533e53d4cff7cc4378fb1c86d4a723a5d26a9976a46b934ea6",
+      "selected_text_sha256": "1da6f2cd03e165533e53d4cff7cc4378fb1c86d4a723a5d26a9976a46b934ea6",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P01.support",
+      "r3_group": "H01.support",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "e7b804636b21fc021495c4316c2fb269fc9a95fd5eea0e79dbe95fe878b340fb",
+      "selected_text_sha256": "e7b804636b21fc021495c4316c2fb269fc9a95fd5eea0e79dbe95fe878b340fb",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P01.secondary",
+      "r3_group": "H01.secondary",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "c61b8ff31ba6310acf0ac1f49951660a9f9ac5e262945c04b1bf2a9714eec133",
+      "selected_text_sha256": "c61b8ff31ba6310acf0ac1f49951660a9f9ac5e262945c04b1bf2a9714eec133",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P03.eyebrow",
+      "r3_group": "H03.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "a3ecb85b473be1943c0dad36e96dcf66e5eb817a338f673429fd296ce46e6a29",
+      "selected_text_sha256": "a3ecb85b473be1943c0dad36e96dcf66e5eb817a338f673429fd296ce46e6a29",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P03.h2",
+      "r3_group": "H03.h2",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "d5b3785331e570196aafaf329a2f983540d45ae338d3b1312398bfb98ca4e782",
+      "selected_text_sha256": "d5b3785331e570196aafaf329a2f983540d45ae338d3b1312398bfb98ca4e782",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P03.body",
+      "r3_group": "H03.body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "553219fa041987fa813ad3ed0ffbf1223ea6b186ce926dfd380ed71f87b198d5",
+      "selected_text_sha256": "553219fa041987fa813ad3ed0ffbf1223ea6b186ce926dfd380ed71f87b198d5",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P03.boundary",
+      "r3_group": "H03.boundary",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "75888e748535d8bf6188ed66fca8cdc693da606d70e942f668abdfdd294932dc",
+      "selected_text_sha256": "75888e748535d8bf6188ed66fca8cdc693da606d70e942f668abdfdd294932dc",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.body",
+      "r3_group": "H05.body",
+      "index": 0,
+      "exact_match": false,
+      "source_text_sha256": "679641b8df50a1e84409d0043c7f92c9872d4d3be6989b9094a504dbd7861e7c",
+      "selected_text_sha256": "c3c1f6d7a56fc3a6044ad6314b510986b58a5bb4b4546baf65fab275d72b7877",
+      "match_mode": "byte-exact to S1 modulo declared glyph-only normalization",
+      "normalization_id": "B3_U0027_TO_U2019",
+      "source_text": "Teamvista's session-detail view includes session timing, app and link chronology, break and idle history, and screenshot views. Compare the available records around the period that raised the question.",
+      "selected_text": "Teamvista’s session-detail view includes session timing, app and link chronology, break and idle history, and screenshot views. Compare the available records around the period that raised the question.",
+      "codepoint_changes": [
+        {
+          "character_index_zero_based": 9,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        }
+      ],
+      "modulo_match": true,
+      "zero_other_delta": true
+    },
+    {
+      "id": "TV.RUI.P04.timing-label",
+      "r3_group": "H03.details",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "96cb350ebac12b8a1b145ae106cf1658a698a556964c5225300b43669ab8d88d",
+      "selected_text_sha256": "96cb350ebac12b8a1b145ae106cf1658a698a556964c5225300b43669ab8d88d",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.timing-body",
+      "r3_group": "H03.details",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "1631bc04613574b284c5a4497bf2b1dcd0237480faf14d2ee497eba9f088cd08",
+      "selected_text_sha256": "1631bc04613574b284c5a4497bf2b1dcd0237480faf14d2ee497eba9f088cd08",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.apps-label",
+      "r3_group": "H03.details",
+      "index": 2,
+      "exact_match": true,
+      "source_text_sha256": "4aea87cbc2bc72d992faf21d15bb587d1cb4ae943a9a750e9faa91181e056afb",
+      "selected_text_sha256": "4aea87cbc2bc72d992faf21d15bb587d1cb4ae943a9a750e9faa91181e056afb",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.apps-body",
+      "r3_group": "H03.details",
+      "index": 3,
+      "exact_match": true,
+      "source_text_sha256": "e7f4cbe89f000b07c14d16c0c8816394f54a16c8b9b38ce72693546a1400cd02",
+      "selected_text_sha256": "e7f4cbe89f000b07c14d16c0c8816394f54a16c8b9b38ce72693546a1400cd02",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.breaks-label",
+      "r3_group": "H03.details",
+      "index": 4,
+      "exact_match": true,
+      "source_text_sha256": "54dfedb579606c62bc614e8e09f6a9cad9e4a6be4e30d5cc0cb57a651d87de20",
+      "selected_text_sha256": "54dfedb579606c62bc614e8e09f6a9cad9e4a6be4e30d5cc0cb57a651d87de20",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.breaks-body",
+      "r3_group": "H03.details",
+      "index": 5,
+      "exact_match": true,
+      "source_text_sha256": "d088fd491e31f8d8a7e81fc52d7081e36e2e9f757907121c520a58d8c801dda9",
+      "selected_text_sha256": "d088fd491e31f8d8a7e81fc52d7081e36e2e9f757907121c520a58d8c801dda9",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.screenshots-label",
+      "r3_group": "H03.details",
+      "index": 6,
+      "exact_match": true,
+      "source_text_sha256": "3a9b3f150b2a11c14b71acc553d141c000dd415620af422b91e2da22496ac0f9",
+      "selected_text_sha256": "3a9b3f150b2a11c14b71acc553d141c000dd415620af422b91e2da22496ac0f9",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.screenshots-body",
+      "r3_group": "H03.details",
+      "index": 7,
+      "exact_match": true,
+      "source_text_sha256": "0bbf992896c0cdca8f240b4754803348f899eb6ae9022dd4ec2eaba0c0a174f9",
+      "selected_text_sha256": "0bbf992896c0cdca8f240b4754803348f899eb6ae9022dd4ec2eaba0c0a174f9",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P04.boundary",
+      "r3_group": "H05.boundary",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "70d38a40bdebd3ee8cd4049b49011457eda2fa77943f893330b7727948573b0e",
+      "selected_text_sha256": "70d38a40bdebd3ee8cd4049b49011457eda2fa77943f893330b7727948573b0e",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P08.bridge",
+      "r3_group": "H05.bridge",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "8c71abd0dee03271e85ff87a941483ebc55d5184a82982b70dc4f6e3784a8bbb",
+      "selected_text_sha256": "8c71abd0dee03271e85ff87a941483ebc55d5184a82982b70dc4f6e3784a8bbb",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.eyebrow",
+      "r3_group": "H04.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "78e5172df3c2009c270a8e6e2f96e44f523b5550b68cb2bd4703dcefa56dd794",
+      "selected_text_sha256": "78e5172df3c2009c270a8e6e2f96e44f523b5550b68cb2bd4703dcefa56dd794",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.h2",
+      "r3_group": "H04.h2",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "dfd4cd380a3353c5ae9559ae427bc4d38d821206bcc63ade2ab8eb577c92f248",
+      "selected_text_sha256": "dfd4cd380a3353c5ae9559ae427bc4d38d821206bcc63ade2ab8eb577c92f248",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.body",
+      "r3_group": "H04.body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "115121b7caff245eaf793cbb362a3da86cb84788859460698be90bb9d6a9cac4",
+      "selected_text_sha256": "115121b7caff245eaf793cbb362a3da86cb84788859460698be90bb9d6a9cac4",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.context-title",
+      "r3_group": "H04.criteria",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "a6e600a10fede40f648be37a700467776215ed2da3c271e9d02fa2987190a0a0",
+      "selected_text_sha256": "a6e600a10fede40f648be37a700467776215ed2da3c271e9d02fa2987190a0a0",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.context-body",
+      "r3_group": "H04.criteria",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "5e1b617d01bfb04c69f73a80f08290d04b8154f1859901c297b9a717f5a6e306",
+      "selected_text_sha256": "5e1b617d01bfb04c69f73a80f08290d04b8154f1859901c297b9a717f5a6e306",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.followup-title",
+      "r3_group": "H04.criteria",
+      "index": 2,
+      "exact_match": true,
+      "source_text_sha256": "09b2d9cd1123792aad06158c9acb18ce855b7011b78f3923c91804b3ef6bf176",
+      "selected_text_sha256": "09b2d9cd1123792aad06158c9acb18ce855b7011b78f3923c91804b3ef6bf176",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.followup-body",
+      "r3_group": "H04.criteria",
+      "index": 3,
+      "exact_match": true,
+      "source_text_sha256": "5054a48a812710a4798d1d7ac0157e5ccd4a51bc21285fa1426983a0048db0bb",
+      "selected_text_sha256": "5054a48a812710a4798d1d7ac0157e5ccd4a51bc21285fa1426983a0048db0bb",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.operating-title",
+      "r3_group": "H04.criteria",
+      "index": 4,
+      "exact_match": true,
+      "source_text_sha256": "4517b711e560440a69e3da20be541ef23823ea2973d131f29c88560434892489",
+      "selected_text_sha256": "4517b711e560440a69e3da20be541ef23823ea2973d131f29c88560434892489",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.operating-body",
+      "r3_group": "H04.criteria",
+      "index": 5,
+      "exact_match": true,
+      "source_text_sha256": "e14a48053305ba32744a21161a52adade31b1f71f5fa82a60f104b234267ed16",
+      "selected_text_sha256": "e14a48053305ba32744a21161a52adade31b1f71f5fa82a60f104b234267ed16",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.cost-title",
+      "r3_group": "H04.criteria",
+      "index": 6,
+      "exact_match": true,
+      "source_text_sha256": "c416356f3a2600fca61f9ec195ebde1e42136615f7ed181fedc22d60026fe085",
+      "selected_text_sha256": "c416356f3a2600fca61f9ec195ebde1e42136615f7ed181fedc22d60026fe085",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.cost-body",
+      "r3_group": "H04.criteria",
+      "index": 7,
+      "exact_match": true,
+      "source_text_sha256": "aee698c5e5fb369799a7b50cc462206abaa053c14313b119e45f85f377c792cf",
+      "selected_text_sha256": "aee698c5e5fb369799a7b50cc462206abaa053c14313b119e45f85f377c792cf",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P09.decision",
+      "r3_group": "H04.decision",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "1da54a9ba9d4850a86c52fe318fec34c535b5c76d7bbede7bd0e7ab985f7d8c7",
+      "selected_text_sha256": "1da54a9ba9d4850a86c52fe318fec34c535b5c76d7bbede7bd0e7ab985f7d8c7",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P11.cost-body",
+      "r3_group": "H08.costs-body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "4a424558e23bdcf3e30f434c2869f0e3faaabe458386d9cb10c04c1ebfdfb71f",
+      "selected_text_sha256": "4a424558e23bdcf3e30f434c2869f0e3faaabe458386d9cb10c04c1ebfdfb71f",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P11.mcp-scope",
+      "r3_group": "H06.scope",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "7f06143ed183d2755436a07fef59cbc1f53f73d9d0643cb069e50af4da4362c4",
+      "selected_text_sha256": "7f06143ed183d2755436a07fef59cbc1f53f73d9d0643cb069e50af4da4362c4",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P11.cta",
+      "r3_group": "H01.cta",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "1da6f2cd03e165533e53d4cff7cc4378fb1c86d4a723a5d26a9976a46b934ea6",
+      "selected_text_sha256": "1da6f2cd03e165533e53d4cff7cc4378fb1c86d4a723a5d26a9976a46b934ea6",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P11.support",
+      "r3_group": "H01.support",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "e7b804636b21fc021495c4316c2fb269fc9a95fd5eea0e79dbe95fe878b340fb",
+      "selected_text_sha256": "e7b804636b21fc021495c4316c2fb269fc9a95fd5eea0e79dbe95fe878b340fb",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P12.authorization",
+      "r3_group": "H08.access-body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "95d940a5eac5dc0bdc904b21963b3e27315371734bf2ae629a622f575708bead",
+      "selected_text_sha256": "95d940a5eac5dc0bdc904b21963b3e27315371734bf2ae629a622f575708bead",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P13.eyebrow",
+      "r3_group": "H07.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "70397af8bb6b8f89eda7b5a6e1d7c3fda2c27a601ec11da2a0b923fec31745a1",
+      "selected_text_sha256": "70397af8bb6b8f89eda7b5a6e1d7c3fda2c27a601ec11da2a0b923fec31745a1",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P13.body",
+      "r3_group": "H07.body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "6d022fcc77e5fd6ffb564ef55d6bca54687cbc9c17f27c71943e1c7ab2ba83bd",
+      "selected_text_sha256": "6d022fcc77e5fd6ffb564ef55d6bca54687cbc9c17f27c71943e1c7ab2ba83bd",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P13.boundary",
+      "r3_group": "H07.boundary",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "6b24ac6a9013276f88bed30bc8221d575941c47f57c24d3603a05cf273a7ab76",
+      "selected_text_sha256": "6b24ac6a9013276f88bed30bc8221d575941c47f57c24d3603a05cf273a7ab76",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P14.eyebrow",
+      "r3_group": "H08.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "6e0002c64a855dad3638eb713229e5f626d7af1aee9ed621cea449c6769e4341",
+      "selected_text_sha256": "6e0002c64a855dad3638eb713229e5f626d7af1aee9ed621cea449c6769e4341",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P14.body",
+      "r3_group": "H08.body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "d3a7bdc70d5ab0cad329cb4f653e2b1145b09b080ebc5f315f9aa7c3d5e8e4a9",
+      "selected_text_sha256": "d3a7bdc70d5ab0cad329cb4f653e2b1145b09b080ebc5f315f9aa7c3d5e8e4a9",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P14.windows-heading",
+      "r3_group": "H08.desktop-heading",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "2ec002a97922f3e3fe97b7f28fcdb64c4dba41b0af3c2999e4dd22bf941cb10b",
+      "selected_text_sha256": "2ec002a97922f3e3fe97b7f28fcdb64c4dba41b0af3c2999e4dd22bf941cb10b",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P14.windows-body",
+      "r3_group": "H08.desktop-body",
+      "index": 0,
+      "exact_match": false,
+      "source_text_sha256": "cdc9b8937c3a36bd25cb030ffa7c4efd912cd3c650de901b8dd060e874049627",
+      "selected_text_sha256": "4cb3fe8e0ee16a841aa0b6a1410f52677dfc7517819aab48bc38fb8b26607b20",
+      "match_mode": "byte-exact to S1 modulo declared glyph-only normalization",
+      "normalization_id": "B3_U0027_TO_U2019",
+      "source_text": "Teamvista's desktop capture workflow is Windows-first. Equivalent macOS and Linux telemetry is not established. Capture with more than three monitors is outside this evaluation's desktop scope.",
+      "selected_text": "Teamvista’s desktop capture workflow is Windows-first. Equivalent macOS and Linux telemetry is not established. Capture with more than three monitors is outside this evaluation’s desktop scope.",
+      "codepoint_changes": [
+        {
+          "character_index_zero_based": 9,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        },
+        {
+          "character_index_zero_based": 176,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        }
+      ],
+      "modulo_match": true,
+      "zero_other_delta": true
+    },
+    {
+      "id": "TV.RUI.P14.access-heading",
+      "r3_group": "H08.access-heading",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "2af7ba1b259c31d7795e5fbefbef0bbc8a18383fed27ba9ba43ecbfc772d7081",
+      "selected_text_sha256": "2af7ba1b259c31d7795e5fbefbef0bbc8a18383fed27ba9ba43ecbfc772d7081",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P14.access-body",
+      "r3_group": "H08.access-body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "95d940a5eac5dc0bdc904b21963b3e27315371734bf2ae629a622f575708bead",
+      "selected_text_sha256": "95d940a5eac5dc0bdc904b21963b3e27315371734bf2ae629a622f575708bead",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.eyebrow",
+      "r3_group": "H06.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "58baf59671061b6d7fdc7c7c65ac22700553ff336eecf6a308b099b457515db0",
+      "selected_text_sha256": "58baf59671061b6d7fdc7c7c65ac22700553ff336eecf6a308b099b457515db0",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.h2",
+      "r3_group": "H06.h2",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "dd8440bfa952776dfadc7e3a8637d0abb4aebdc9fe25253abf380735f51f8b88",
+      "selected_text_sha256": "dd8440bfa952776dfadc7e3a8637d0abb4aebdc9fe25253abf380735f51f8b88",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.body",
+      "r3_group": "H06.body",
+      "index": 0,
+      "exact_match": false,
+      "source_text_sha256": "e95897019c10094af275f7b67aad84a07fc349245d315b0dd4e0f057b184d022",
+      "selected_text_sha256": "09353710bebabbf855407c53e0a16d9b04ba65ccc024f042f9de44aac558a7e7",
+      "match_mode": "byte-exact to S1 modulo declared glyph-only normalization",
+      "normalization_id": "B3_U0027_TO_U2019",
+      "source_text": "Start with a work-review question, then evaluate how an AI tool would use the relevant records. Teamvista's external MCP interface and owner-facing assistant are separate evaluation surfaces—not ready-to-use integrations or automated decisions about people.",
+      "selected_text": "Start with a work-review question, then evaluate how an AI tool would use the relevant records. Teamvista’s external MCP interface and owner-facing assistant are separate evaluation surfaces—not ready-to-use integrations or automated decisions about people.",
+      "codepoint_changes": [
+        {
+          "character_index_zero_based": 105,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        }
+      ],
+      "modulo_match": true,
+      "zero_other_delta": true
+    },
+    {
+      "id": "TV.RUI.P15.mcp-label",
+      "r3_group": "H06.mcp-label",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "d77023a021b4f3da4f81a083d43ce0d535d79ee46d4a032aeab72801fea3a42d",
+      "selected_text_sha256": "d77023a021b4f3da4f81a083d43ce0d535d79ee46d4a032aeab72801fea3a42d",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.mcp-body",
+      "r3_group": "H06.mcp-body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "3ade4b6fcf7595e65f76c2f7f1c580fff294fe2044dd1c79d98861f11a06a88a",
+      "selected_text_sha256": "3ade4b6fcf7595e65f76c2f7f1c580fff294fe2044dd1c79d98861f11a06a88a",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tools-title",
+      "r3_group": "H06.tools-title",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "bc651d11efa5eaef3db53e18d723f900125459a747ec70cc9739e4e91258066c",
+      "selected_text_sha256": "bc651d11efa5eaef3db53e18d723f900125459a747ec70cc9739e4e91258066c",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tool-1",
+      "r3_group": "H06.tools",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "bb5160d1e7c9a3eafee23fc15e2d470146f09c387efb858f8b1d08aeeebee336",
+      "selected_text_sha256": "bb5160d1e7c9a3eafee23fc15e2d470146f09c387efb858f8b1d08aeeebee336",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tool-2",
+      "r3_group": "H06.tools",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "87de5b360de39cecf1d6be5121487a543922cd996424f6f2e8cad98ab610624b",
+      "selected_text_sha256": "87de5b360de39cecf1d6be5121487a543922cd996424f6f2e8cad98ab610624b",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tool-3",
+      "r3_group": "H06.tools",
+      "index": 2,
+      "exact_match": true,
+      "source_text_sha256": "db0fbd3bb0446758b8751dd3ac2d5aa65505cf1677815c6a29bca7e910bba53f",
+      "selected_text_sha256": "db0fbd3bb0446758b8751dd3ac2d5aa65505cf1677815c6a29bca7e910bba53f",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tool-4",
+      "r3_group": "H06.tools",
+      "index": 3,
+      "exact_match": true,
+      "source_text_sha256": "d61ce848187b6afd26b6da2f14c0657c0413e9451026499484bfcac57a03b329",
+      "selected_text_sha256": "d61ce848187b6afd26b6da2f14c0657c0413e9451026499484bfcac57a03b329",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tool-5",
+      "r3_group": "H06.tools",
+      "index": 4,
+      "exact_match": true,
+      "source_text_sha256": "2bbd223411a7feca24f7a7ddb8f83e794191e5904303962cb2f922eec73e6128",
+      "selected_text_sha256": "2bbd223411a7feca24f7a7ddb8f83e794191e5904303962cb2f922eec73e6128",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tool-6",
+      "r3_group": "H06.tools",
+      "index": 5,
+      "exact_match": true,
+      "source_text_sha256": "f8603f6818a43427c69688d812975a0ba068a08b81ad5b5e3a10c7b8db432ccc",
+      "selected_text_sha256": "f8603f6818a43427c69688d812975a0ba068a08b81ad5b5e3a10c7b8db432ccc",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.tools-boundary",
+      "r3_group": "H06.tools-boundary",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "20fe8269c57690e948e2e2ee28cef2f7149622d1f72c5649389e8bfeee5e8441",
+      "selected_text_sha256": "20fe8269c57690e948e2e2ee28cef2f7149622d1f72c5649389e8bfeee5e8441",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.read-only-boundary",
+      "r3_group": "H06.read-only-boundary",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "502a1419de1daee4d2f571e51fbbd9b72b9106fdd46e0f33900cdb3fd6db3c4e",
+      "selected_text_sha256": "502a1419de1daee4d2f571e51fbbd9b72b9106fdd46e0f33900cdb3fd6db3c4e",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.requirements-heading",
+      "r3_group": "H06.requirements-heading",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "3b1c8be75df06b9917250ff5b8341b1a3e7ebc8ebab85cdf9f647fcd135b474c",
+      "selected_text_sha256": "3b1c8be75df06b9917250ff5b8341b1a3e7ebc8ebab85cdf9f647fcd135b474c",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.requirements-body",
+      "r3_group": "H06.requirements-body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "2265160aa9d336313f2498bb4dcb2619a4306a5b978d1e13f86d8088616149d7",
+      "selected_text_sha256": "2265160aa9d336313f2498bb4dcb2619a4306a5b978d1e13f86d8088616149d7",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.scope",
+      "r3_group": "H06.scope",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "7f06143ed183d2755436a07fef59cbc1f53f73d9d0643cb069e50af4da4362c4",
+      "selected_text_sha256": "7f06143ed183d2755436a07fef59cbc1f53f73d9d0643cb069e50af4da4362c4",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.assistant-label",
+      "r3_group": "H06.assistant-label",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "f9140eb28ebc479aebc29c3266d2e9b4f89df845744a205b010379d1a4198c29",
+      "selected_text_sha256": "f9140eb28ebc479aebc29c3266d2e9b4f89df845744a205b010379d1a4198c29",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P15.assistant-body",
+      "r3_group": "H06.assistant-body",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "e83e778d45df5c9b43c2878d48dcea3d08908a4edf09ffd56bb12185203a3bb3",
+      "selected_text_sha256": "e83e778d45df5c9b43c2878d48dcea3d08908a4edf09ffd56bb12185203a3bb3",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.eyebrow",
+      "r3_group": "H09.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "9a72221a27476f3e907767bc2614ae6aaa0a45c60543a23f89786b571897bb75",
+      "selected_text_sha256": "9a72221a27476f3e907767bc2614ae6aaa0a45c60543a23f89786b571897bb75",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.h2",
+      "r3_group": "H09.h2",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "adebd7611f4461fecb666b50d32783c83d321f805aa25a3060137638cb560bac",
+      "selected_text_sha256": "adebd7611f4461fecb666b50d32783c83d321f805aa25a3060137638cb560bac",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-01-q",
+      "r3_group": "H09.q1",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "9337c2d778f542a88b0074a9332798c8923a9a8ab366b52561bce22decbe9dac",
+      "selected_text_sha256": "9337c2d778f542a88b0074a9332798c8923a9a8ab366b52561bce22decbe9dac",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-01-a",
+      "r3_group": "H09.q1",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "8fc6d9c1b78a5f6e0cf31b4ffeb646775f99c3666d20a26deae50d58e9e807e8",
+      "selected_text_sha256": "8fc6d9c1b78a5f6e0cf31b4ffeb646775f99c3666d20a26deae50d58e9e807e8",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-02-q",
+      "r3_group": "H09.q10",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "5be3639e0a4c6e33654fd631846886e17f708b65fc227bb298dc62dc18aeec00",
+      "selected_text_sha256": "5be3639e0a4c6e33654fd631846886e17f708b65fc227bb298dc62dc18aeec00",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-02-a",
+      "r3_group": "H09.q10",
+      "index": 1,
+      "exact_match": false,
+      "source_text_sha256": "c3ca8aacc6569ff39d5ee2fabab3e8c10c4b09c77be8f583d740cd2e9b96af3b",
+      "selected_text_sha256": "08a37d35d537171e2fafa78a9769c53b29bbc149347f6047ca17d4e3cbca810b",
+      "match_mode": "byte-exact to S1 modulo declared glyph-only normalization",
+      "normalization_id": "B3_U0027_TO_U2019",
+      "source_text": "Compare the written software scope, provider charges, onboarding and support responsibilities, and your team's operating effort. Assess any proposed AI usage separately. A license fee alone is not the total cost, and a different setup is not proof of savings.",
+      "selected_text": "Compare the written software scope, provider charges, onboarding and support responsibilities, and your team’s operating effort. Assess any proposed AI usage separately. A license fee alone is not the total cost, and a different setup is not proof of savings.",
+      "codepoint_changes": [
+        {
+          "character_index_zero_based": 108,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        }
+      ],
+      "modulo_match": true,
+      "zero_other_delta": true
+    },
+    {
+      "id": "TV.RUI.P16.faq-03-q",
+      "r3_group": "H09.q2",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "9639a15beb279693c522362c9b06766a872b34f58b90bd2bd87608f496cf9917",
+      "selected_text_sha256": "9639a15beb279693c522362c9b06766a872b34f58b90bd2bd87608f496cf9917",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-03-a",
+      "r3_group": "H09.q2",
+      "index": 1,
+      "exact_match": false,
+      "source_text_sha256": "679d529ab7f260aac5e760b3455994a97fe084755474d4900fac1c8dce20a33c",
+      "selected_text_sha256": "58ff1bb987cfdbcf0668470474391c12f45f030a529fae16c7521cce914b8469",
+      "match_mode": "byte-exact to S1 modulo declared glyph-only normalization",
+      "normalization_id": "B3_U0027_TO_U2019",
+      "source_text": "The Windows desktop implementation captures periodic screenshots and records activity and app/window context. The review views include sessions, attendance, app and link history, and alerts. These are available records—not a continuous or complete account of someone's work.",
+      "selected_text": "The Windows desktop implementation captures periodic screenshots and records activity and app/window context. The review views include sessions, attendance, app and link history, and alerts. These are available records—not a continuous or complete account of someone’s work.",
+      "codepoint_changes": [
+        {
+          "character_index_zero_based": 266,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        }
+      ],
+      "modulo_match": true,
+      "zero_other_delta": true
+    },
+    {
+      "id": "TV.RUI.P16.faq-04-q",
+      "r3_group": "H09.q3",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "4cdeac17ac66653f47483bfc368b30eec3dd409643a892058f35c5620f55cdb3",
+      "selected_text_sha256": "4cdeac17ac66653f47483bfc368b30eec3dd409643a892058f35c5620f55cdb3",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-04-a",
+      "r3_group": "H09.q3",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "a58fd3a0e2e77cdc6e79cfd4c1a75cb02412cf9f267837d96415636474d39211",
+      "selected_text_sha256": "a58fd3a0e2e77cdc6e79cfd4c1a75cb02412cf9f267837d96415636474d39211",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-05-q",
+      "r3_group": "H09.q4",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "5f5eb8be724fa248f3962200b193a458615e4c96d9bbefc1212dd1b2a0a9c1b2",
+      "selected_text_sha256": "5f5eb8be724fa248f3962200b193a458615e4c96d9bbefc1212dd1b2a0a9c1b2",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-05-a",
+      "r3_group": "H09.q4",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "d06b1906c1f1718b876e4bb9631fce6e6866e435a72ff1ffeca58cc9f69a4bc0",
+      "selected_text_sha256": "d06b1906c1f1718b876e4bb9631fce6e6866e435a72ff1ffeca58cc9f69a4bc0",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-06-q",
+      "r3_group": "H09.q5",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "4267201161c40cfb825cba2a747818e1590de872ba885faa9d5d3f62bb7140c8",
+      "selected_text_sha256": "4267201161c40cfb825cba2a747818e1590de872ba885faa9d5d3f62bb7140c8",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-06-a",
+      "r3_group": "H09.q5",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "a34655314179c9f94e3f45420450506a2f3437a4bc5b3ce68b7dca2d50f10d51",
+      "selected_text_sha256": "a34655314179c9f94e3f45420450506a2f3437a4bc5b3ce68b7dca2d50f10d51",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-07-q",
+      "r3_group": "H09.q6",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "1f7721dfce30a4f7ce6155d8340b38d45516e63c66f6cce3e6daf2b25e5824b9",
+      "selected_text_sha256": "1f7721dfce30a4f7ce6155d8340b38d45516e63c66f6cce3e6daf2b25e5824b9",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-07-a",
+      "r3_group": "H09.q6",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "88fa1d75c4c2ae307dfd29850a3a47d22d0e4c0c50ee085a7d7cad6489df910a",
+      "selected_text_sha256": "88fa1d75c4c2ae307dfd29850a3a47d22d0e4c0c50ee085a7d7cad6489df910a",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-08-q",
+      "r3_group": "H09.q7",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "dd2eb64551de02f23ff43edad925a97ab9d7b6a037a7136837785d4c1edf2643",
+      "selected_text_sha256": "dd2eb64551de02f23ff43edad925a97ab9d7b6a037a7136837785d4c1edf2643",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-08-a",
+      "r3_group": "H09.q7",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "c525276469c18e3228b86c2ae793acc9435ab6dc826a920448dab3f1ea46b679",
+      "selected_text_sha256": "c525276469c18e3228b86c2ae793acc9435ab6dc826a920448dab3f1ea46b679",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-09-q",
+      "r3_group": "H09.q8",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "34caf6232e883f679db725853ea9b9ff0e07d58407fb2ca7aaa8df016931216d",
+      "selected_text_sha256": "34caf6232e883f679db725853ea9b9ff0e07d58407fb2ca7aaa8df016931216d",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-09-a",
+      "r3_group": "H09.q8",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "7ebeb0fb155fcdaee80c2e875691f5444aa2e8c3f1e09f6b370a0e3386f2b591",
+      "selected_text_sha256": "7ebeb0fb155fcdaee80c2e875691f5444aa2e8c3f1e09f6b370a0e3386f2b591",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P16.faq-10-q",
+      "r3_group": "H09.q9",
+      "index": 0,
+      "exact_match": false,
+      "source_text_sha256": "7a8b72e591703ac71d2df944705f1a60e115df4e511d841685cc8d23cb958a27",
+      "selected_text_sha256": "32eb28f9d073e3df9a75236e1f9c50d8b991997c8ada1fa32786dd3fa9290b36",
+      "match_mode": "byte-exact to S1 modulo declared glyph-only normalization",
+      "normalization_id": "B3_U0027_TO_U2019",
+      "source_text": "Do an alert's status or a settings change prove the issue is handled?",
+      "selected_text": "Do an alert’s status or a settings change prove the issue is handled?",
+      "codepoint_changes": [
+        {
+          "character_index_zero_based": 11,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        }
+      ],
+      "modulo_match": true,
+      "zero_other_delta": true
+    },
+    {
+      "id": "TV.RUI.P16.faq-10-a",
+      "r3_group": "H09.q9",
+      "index": 1,
+      "exact_match": true,
+      "source_text_sha256": "f8d28cfcba82e4b903d5058426b722abac13cd958d47104987000b2ba83f55b1",
+      "selected_text_sha256": "f8d28cfcba82e4b903d5058426b722abac13cd958d47104987000b2ba83f55b1",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P17.eyebrow",
+      "r3_group": "H10.eyebrow",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "5a90892116954912280867060324714859331cf9b3291cb195ee7e5a85e860db",
+      "selected_text_sha256": "5a90892116954912280867060324714859331cf9b3291cb195ee7e5a85e860db",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P17.h2",
+      "r3_group": "H10.h2",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "90e45ff4d8ed998165c9fd6d9148bcf3da0624f121c30125a4f09b58c86dc9e2",
+      "selected_text_sha256": "90e45ff4d8ed998165c9fd6d9148bcf3da0624f121c30125a4f09b58c86dc9e2",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P17.body",
+      "r3_group": "H10.body",
+      "index": 0,
+      "exact_match": false,
+      "source_text_sha256": "f0a10c461935aef0db426ef48d66e29683323daa5ef62e103dd44a26e1970445",
+      "selected_text_sha256": "d124f7e5717ab4fd2b88faf0cd08294b33b4cf133da32df5f49b752cba5574e3",
+      "match_mode": "byte-exact to S1 modulo declared glyph-only normalization",
+      "normalization_id": "B3_U0027_TO_U2019",
+      "source_text": "Describe the period, the records your team checked, and what remained unclear. Use that example to assess Teamvista's review workflow, the requirements it would need to meet, and the operating commitment behind a switch.",
+      "selected_text": "Describe the period, the records your team checked, and what remained unclear. Use that example to assess Teamvista’s review workflow, the requirements it would need to meet, and the operating commitment behind a switch.",
+      "codepoint_changes": [
+        {
+          "character_index_zero_based": 115,
+          "from_codepoint": "U+0027",
+          "to_codepoint": "U+2019"
+        }
+      ],
+      "modulo_match": true,
+      "zero_other_delta": true
+    },
+    {
+      "id": "TV.RUI.P17.preparation",
+      "r3_group": "H10.preparation",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "4ac956e8e9374382c71753c06c39b8f0e217689deea997d262e560d285399786",
+      "selected_text_sha256": "4ac956e8e9374382c71753c06c39b8f0e217689deea997d262e560d285399786",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P17.cta",
+      "r3_group": "H10.cta",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "1da6f2cd03e165533e53d4cff7cc4378fb1c86d4a723a5d26a9976a46b934ea6",
+      "selected_text_sha256": "1da6f2cd03e165533e53d4cff7cc4378fb1c86d4a723a5d26a9976a46b934ea6",
+      "match_mode": "byte-exact to S1"
+    },
+    {
+      "id": "TV.RUI.P17.support",
+      "r3_group": "H10.support",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "4a75d8a728be0fe7d2abd18657f39b301cba29395c787b1ad290c83b4218f875",
+      "selected_text_sha256": "4a75d8a728be0fe7d2abd18657f39b301cba29395c787b1ad290c83b4218f875",
+      "match_mode": "byte-exact to S1"
+    }
+  ],
+  "additional_exact_reuses": [
+    {
+      "id": "TV.RUI.P08.cta",
+      "r3_group": "H01.cta",
+      "index": 0,
+      "exact_match": true,
+      "source_text_sha256": "1da6f2cd03e165533e53d4cff7cc4378fb1c86d4a723a5d26a9976a46b934ea6"
+    }
+  ],
+  "baseline_for_reproduction": {
+    "full_file_sha256": "f86a6b7443944d4fb5a2cd5f60b9228d851ef9b659d6058a4ce39496827e2dc1",
+    "selected_visible_copy_sha256": "5e237b640c1f63d8e4fe4b4d62557df4e7a389fdd761b4ae6d5913679fa082d9",
+    "visible_region_sha256": "b53ced498016b88236bf6574a192a410fd6d7e9aa2d761ff3982405f9ec5baae",
+    "visible_region": "\n\n## P00 — Navigation\n\nID: TV.RUI.P00.brand\n> Teamvista\n\nID: TV.RUI.P00.product\n> Product\n\nID: TV.RUI.P00.workflow\n> How review works\n\nID: TV.RUI.P00.pricing\n> Pricing & scope\n\nID: TV.RUI.P00.storage\n> Storage & access\n\nID: TV.RUI.P00.evaluation\n> Evaluation\n\nID: TV.RUI.P00.cta\n> Request a fit-and-technical evaluation\n\nID: TV.RUI.P00.menu-open\n> Menu\n\nID: TV.RUI.P00.menu-close\n> Close menu\n\nNON-RENDERING — These are the complete selected one-page navigation words. Targets are content coordinates in Appendix B, not new external pages, URLs, a sign-in route, or intake instructions. No announcement strip is selected. Accessibility-only strings and metadata are outside the visible-copy region.\n\n\n## P01 — Hero, first offer statement, and product evidence\n\nID: TV.RUI.P01.eyebrow\n> Work-evidence review software for distributed service companies\n\nID: TV.RUI.P01.h1\n> Review the context before you start the conversation.\n\nID: TV.RUI.P01.body\n> An idle alert or attendance gap can raise a question. Teamvista brings attendance, recorded activity, screenshots, and exceptions into one review workflow—so owners and managers can inspect the available context before following up.\n\nID: TV.RUI.P01.fit\n> For owners and operations leaders at Windows-first service companies with 40–80 tracked people that already use transparent screenshot-based review.\n\nID: TV.RUI.P01.descriptor\n> Screenshot and activity monitoring organized around manager review and human follow-up.\n\nID: TV.RUI.P01.cta\n> Request a fit-and-technical evaluation\n\nID: TV.RUI.P01.support\n> Bring one recent review question and the requirements a replacement would need to meet. A request does not grant production access.\n\nID: TV.RUI.P01.secondary\n> See how the review works\n\nID: TV.RUI.P01.price\n> $2,000/year proposed\n\nID: TV.RUI.P01.accounts\n> The proposed software scope includes unlimited tracked team-member accounts, with no per-seat software pricing.\n\nID: TV.RUI.P01.exclusions\n> Customer-provided storage and infrastructure costs are separate. Unlimited does not include storage, retention, bandwidth, environments, onboarding, support, or processing capacity.\n\nID: TV.RUI.P01.caption\n> Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test.\n\nNON-RENDERING — Caption is local to the hero session-detail image. The price, proposed status, account scope and full exclusions form one inseparable offer block. No assumption of unlimited admin accounts, capacity, or included services. The audience range is targeting, not a tested capacity limit.\n\n\n## P02 — The review problem\n\nID: TV.RUI.P02.eyebrow\n> From a flag to a useful question\n\nID: TV.RUI.P02.h2\n> You have a record. Do you have the context?\n\nID: TV.RUI.P02.body\n> An idle alert tells you a period needs attention. An attendance gap raises a question about the schedule. A screenshot shows one moment. None of them gives you the whole explanation.\n\nID: TV.RUI.P02.body-two\n> When those records sit in separate views, it is easy to start with the flag and miss what happened around it. Before asking someone to explain, examine what your records do—and do not—show.\n\nID: TV.RUI.P02.attendance-label\n> An attendance gap\n\nID: TV.RUI.P02.attendance-question\n> What was the assigned schedule?\n\nID: TV.RUI.P02.alert-label\n> An idle alert\n\nID: TV.RUI.P02.alert-question\n> Which rule raised the flag, and did it fit the work?\n\nID: TV.RUI.P02.screenshot-label\n> A screenshot\n\nID: TV.RUI.P02.screenshot-question\n> What do the available records before and after it show?\n\nID: TV.RUI.P02.bridge\n> The aim is not to collect a verdict. It is to arrive at a better question.\n\n\n## P03 — The product story\n\nID: TV.RUI.P03.eyebrow\n> The records behind the review\n\nID: TV.RUI.P03.h2\n> Bring the relevant context together; leave the judgment to people.\n\nID: TV.RUI.P03.body\n> Review the same period through session details, app and link chronology, break and idle history, and available screenshots. Examine the sequence around the question rather than treating an activity score as the answer.\n\nID: TV.RUI.P03.sequence\n> Find the period. Examine the records. Decide what to ask. Revisit the rule.\n\nID: TV.RUI.P03.scope\n> This is a review across product views, not a promise of automatic evidence retrieval or a complete account of someone’s work.\n\nID: TV.RUI.P03.boundary\n> Read recorded activity as the start of a question, not as a measure of the work — it cannot show you what happened away from the screen.\n\n\n## P04 — Workflow chapter: session context\n\nID: TV.RUI.P04.eyebrow\n> Session context\n\nID: TV.RUI.P04.h2\n> Look around the moment that raised the question.\n\nID: TV.RUI.P04.body\n> Teamvista's session-detail view includes session timing, app and link chronology, break and idle history, and screenshot views. Compare the available records around the period that raised the question.\n\nID: TV.RUI.P04.timing-label\n> Session timing and time allocation\n\nID: TV.RUI.P04.timing-body\n> Check the recorded session against the period under review.\n\nID: TV.RUI.P04.apps-label\n> App and link chronology\n\nID: TV.RUI.P04.apps-body\n> Inspect the applications and links recorded around the question.\n\nID: TV.RUI.P04.breaks-label\n> Break and idle history\n\nID: TV.RUI.P04.breaks-body\n> Review recorded events without assuming they explain off-screen work.\n\nID: TV.RUI.P04.screenshots-label\n> Available screenshots\n\nID: TV.RUI.P04.screenshots-body\n> Examine the available captures before and after the flagged period.\n\nID: TV.RUI.P04.boundary\n> These records show you where to look. They cannot tell you intent or the quality of the work — the explanation still has to come from a conversation.\n\nID: TV.RUI.P04.caption\n> Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test.\n\n\n## P05 — Workflow chapter: alerts and review status\n\nID: TV.RUI.P05.eyebrow\n> Exceptions and review status\n\nID: TV.RUI.P05.h2\n> Treat the flag as a starting point—not a finding.\n\nID: TV.RUI.P05.body\n> Alert views include person, team, time, severity, and status filters, plus acknowledgment and resolution controls. Inspect the relevant records before deciding what a flag means.\n\nID: TV.RUI.P05.prompt\n> Check the person and period. Check the rule behind the alert. Then decide which records deserve a closer look.\n\nID: TV.RUI.P05.boundary\n> These controls describe review status. Saved-state behavior needs verification, and a resolved label does not prove the underlying concern was addressed.\n\nID: TV.RUI.P05.caption\n> Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test.\n\n\n## P06 — Workflow chapter: screenshot review\n\nID: TV.RUI.P06.eyebrow\n> Screenshot review\n\nID: TV.RUI.P06.h2\n> See the available captures. Keep the missing context in mind.\n\nID: TV.RUI.P06.body\n> Screenshot review includes a gallery, time navigation, filters, previews, and timelapse controls. Use available captures to examine the period that raised the question.\n\nID: TV.RUI.P06.prompt\n> Compare the captures with the session and app history. A single image is a reason to inspect the surrounding record—not a reason to skip the conversation.\n\nID: TV.RUI.P06.boundary\n> Captures are not continuous or complete. A missing screenshot does not explain what happened, and a screenshot does not establish intent.\n\nID: TV.RUI.P06.caption\n> Based on the Teamvista interface; editorially recomposed for this page. Recreated workflow with fictional records. Illustrative, not a recording of an executed product test.\n\nID: TV.RUI.P06.image-scope\n> Directory view shown. No captured employee desktop content is displayed in this illustration.\n\n\n## P07 — Workflow chapter: schedules, rules and patterns\n\nID: TV.RUI.P07.eyebrow\n> The context behind the rule\n\nID: TV.RUI.P07.h2\n> A useful review starts with the work people were expected to do.\n\nID: TV.RUI.P07.intro\n> Check the schedule and the rule before treating an exception as a problem. The same signal can call for different questions in different jobs.\n\nID: TV.RUI.P07.attendance-title\n> Put attendance beside the assigned shift.\n\nID: TV.RUI.P07.attendance-body\n> Attendance views include clock-in and clock-out records, shift context, and present, late, absent, and leave summaries. Use the schedule as context when a start, finish, or absence needs investigation.\n\nID: TV.RUI.P07.attendance-boundary\n> Confirm calculations and leave or off-day behavior before relying on them operationally. These displays are not verified payroll or billing output.\n\nID: TV.RUI.P07.rules-title\n> Examine the rule at the right level.\n\nID: TV.RUI.P07.rules-body\n> Break and idle settings include department, team, role, and individual assignments. App and URL policy controls include global, department, team, and individual targets.\n\nID: TV.RUI.P07.rules-boundary\n> A configuration option does not establish correct saving or enforcement. Agree on appropriate workforce use and test the required behavior before rollout.\n\nID: TV.RUI.P07.patterns-title\n> Use patterns to frame questions, not rank people’s value.\n\nID: TV.RUI.P07.patterns-body\n> Activity, app-category, and peak-hour views offer recorded signals and derived indicators to inspect alongside the task and the person’s explanation.\n\nID: TV.RUI.P07.patterns-boundary\n> An activity percentage is not work quality. Overwork-risk indicators are not a burnout diagnosis, and neither scores nor rankings should become automated employment verdicts.\n\n\n## P08 — Human follow-up and the limit of product proof\n\nID: TV.RUI.P08.eyebrow\n> Where the records stop\n\nID: TV.RUI.P08.h2\n> The next step is a conversation—not a verdict from an activity score.\n\nID: TV.RUI.P08.body\n> After examining the available records, separate what you know from what still needs an explanation. Carry that distinction into the conversation.\n\nID: TV.RUI.P08.question\n> What was happening during this period, and what might the records be missing?\n\nID: TV.RUI.P08.boundary\n> Human follow-up happens outside the product workflow shown here; it is not a claimed conversation log or automatic decision.\n\nID: TV.RUI.P08.proof\n> The illustrations show product-interface structure with fictional records. They do not demonstrate successful runtime retrieval, complete capture, protected access, customer outcomes, or measured time savings.\n\nID: TV.RUI.P08.bridge\n> Use the evaluation to decide what the workflow would need to demonstrate for your company.\n\n\n## P09 — The switching case\n\nID: TV.RUI.P09.eyebrow\n> The reason to switch\n\nID: TV.RUI.P09.h2\n> Another monitoring tool needs a reason to replace the one you already have.\n\nID: TV.RUI.P09.body\n> Start with the last review your current process struggled to handle. Which records did your team check? What remained unclear? Compare Teamvista against that gap—not against the number of dashboards in your current tool.\n\nID: TV.RUI.P09.context-title\n> Context\n\nID: TV.RUI.P09.context-body\n> Can your team locate the relevant session, activity, and screenshots for a specific question?\n\nID: TV.RUI.P09.followup-title\n> Follow-up\n\nID: TV.RUI.P09.followup-body\n> Can the reviewer separate what is recorded from what still needs to be asked?\n\nID: TV.RUI.P09.operating-title\n> Operating commitment\n\nID: TV.RUI.P09.operating-body\n> Who handles review, endpoint rollout, access, hosting, retention, and support?\n\nID: TV.RUI.P09.cost-title\n> Full cost\n\nID: TV.RUI.P09.cost-body\n> How do software, provider charges, and internal effort compare with your current setup? Include how changes in tracked headcount affect your existing bill.\n\nID: TV.RUI.P09.best-fit\n> For a Windows-first service company already using transparent screenshot-based review, Teamvista is worth evaluating when the review workflow and the proposed flat software fee fit the problem. If you need equivalent macOS or Linux telemetry, ready-to-use AI connections, or a verified customer-controlled deployment today, those requirements are not established here.\n\nID: TV.RUI.P09.decision\n> If your current process already handles the job well, another dashboard is not enough reason to change. If it leaves relevant records scattered or the review difficult to carry through, evaluate Teamvista against that specific problem.\n\n\n## P10 — Dated software list-price and model comparison\n\nID: TV.RUI.P10.eyebrow\n> Compare the software model\n\nID: TV.RUI.P10.h2\n> A flat proposed software fee. No tracked-seat multiplier.\n\nID: TV.RUI.P10.body\n> At 40, 60 or 80 tracked people, Teamvista’s proposed annual software fee is $2,000. The selected plans below multiply a published seat or user rate—or a five-user pack price—by the number being tracked. That is a pricing-model difference, not a claim that the products do the same job.\n\nID: TV.RUI.P10.accounts\n> The proposed software scope includes unlimited tracked team-member accounts, with no per-seat software pricing.\n\nID: TV.RUI.P10.exclusions\n> Customer-provided storage and infrastructure costs are separate. Unlimited does not include storage, retention, bandwidth, environments, onboarding, support, or processing capacity.\n\nID: TV.RUI.P10.table-title\n> Selected paid entry plans · annual software list price in USD · captured 21 September 2026\n\nID: TV.RUI.P10.table-head\n> | Product / selected plan and source | Pricing model and annual-billing basis | 40 tracked people | 60 tracked people | 80 tracked people |\n\nID: TV.RUI.P10.table-rule\n> | --- | --- | ---: | ---: | ---: |\n\nID: TV.RUI.P10.row-teamvista\n> | Teamvista — proposed software scope | Flat $2,000/year; no per-seat software pricing | $2,000 | $2,000 | $2,000 |\n\nID: TV.RUI.P10.row-hubstaff\n> | [Hubstaff Starter](https://hubstaff.com/hubstaff-pricing-guide) | $4.99/paid seat/month, annual billing | $2,395.20 | $3,592.80 | $4,790.40 |\n\nID: TV.RUI.P10.row-timedoctor\n> | [Time Doctor Basic](https://support.timedoctor.com/knowledge/understanding-time-doctor-pricing-plans) | $80/paid user/year | $3,200 | $4,800 | $6,400 |\n\nID: TV.RUI.P10.row-insightful\n> | [Insightful Workforce Analytics](https://www.insightful.io/pricing) | $8/tracked employee/month, annual billing | $3,840 | $5,760 | $7,680 |\n\nID: TV.RUI.P10.row-activtrak\n> | [ActivTrak Work Activity Tracking](https://www.activtrak.com/pricing/) | $10/worker/month, annual contract; required support above 50 licenses excluded | $4,800 | $7,200 | $9,600 |\n\nID: TV.RUI.P10.row-teramind\n> | [Teramind Starter — AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-7a2h2xosenknq) | $828/year per five-user pack; AWS channel | $6,624 | $9,936 | $13,248 |\n\nID: TV.RUI.P10.formula\n> For monthly rates in the annual-billing column: rate × 12 × tracked people. For annual per-user rates: rate × tracked people. For the Teramind AWS option: round tracked people up to the next five-user pack, then multiply packs by $828/year. These examples assume the stated tracked population; any additional paid owner or manager accounts are extra.\n\nID: TV.RUI.P10.notes-heading\n> Read these figures with the scope—not without it.\n\nID: TV.RUI.P10.note-date\n> Public list pricing captured 21 September 2026. Vendors change prices without notice.\n\nID: TV.RUI.P10.note-parity\n> Plans and capabilities are not identical. This compares software list pricing models, not total cost of ownership or feature equivalence. The rows show selected paid entry plans, not every plan, free option, custom quote or deployment.\n\nID: TV.RUI.P10.note-costs\n> Taxes, discounts, multi-year deals, professional services, implementation, add-ons, paid support, storage, bandwidth, and custom contracts may change actual cost. The figures exclude additional charges; they are not complete quotes.\n\nID: TV.RUI.P10.note-teamvista\n> Teamvista’s $2,000/year is a proposed offer. Unlimited refers to tracked team-member accounts within the agreed deployment and usage scope—not every account type or unlimited capacity. Admin-account terms, environments, fair use and renewal terms remain to be defined.\n\nID: TV.RUI.P10.note-storage\n> Customer-provided storage, infrastructure, retention, and processing capacity are separate from Teamvista’s proposed software fee. Bandwidth, environments, onboarding and support are not unlimited inclusions; agree their scope and costs separately.\n\nID: TV.RUI.P10.note-activtrak\n> ActivTrak paid plans require an annual contract. Paid support is required above 50 licenses, so the 60- and 80-person figures omit a required cost. Screen Details and other add-ons are not included. A five-license paid minimum is reported in its support materials; confirm the current requirement before buying.\n\nID: TV.RUI.P10.note-teramind\n> Teramind’s interactive pricing page does not expose static prices. This table uses AWS Marketplace five-user packs, not a price extracted from the calculator. Teramind’s own comparison article lists Starter at about $14/seat/month on annual billing—a different basis from the $828/year AWS pack. Do not combine those channels into one quote; confirm currency, channel and terms.\n\nID: TV.RUI.P10.note-insightful\n> Insightful Admin, Manager and Client seats are free unless those users are also tracked. The figures assume 40, 60 or 80 tracked employees. Higher-frequency screenshots, recording and other add-ons can change cost.\n\nID: TV.RUI.P10.note-hubstaff\n> Hubstaff owners and managers count as paid seats even without tracking; Project Viewer is free. Paid plans have a two-seat minimum. Non-tracking paid accounts would increase the figures shown.\n\nID: TV.RUI.P10.note-timedoctor\n> Time Doctor owners need a paid license even if they are not tracking; client accounts are free. Additional paid accounts and add-ons would increase the figures shown.\n\nID: TV.RUI.P10.note-decision\n> Choose for the workflow, operating requirements and written scope. This table does not establish a best product or a total-cost saving.\n\nID: TV.RUI.P10.source-details\n> Source details: [Hubstaff seat rules](https://support.hubstaff.com/per-seat-pricing/); [Time Doctor billing](https://support.timedoctor.com/knowledge/billing-faqs); [ActivTrak pricing and support](https://www.activtrak.com/pricing/); [ActivTrak plan licensing](https://support.activtrak.com/hc/en-us/articles/360027324491-ActivTrak-s-Subscription-and-Support-Plans-Licensing-and-Pricing); [Teramind pricing page](https://www.teramind.co/services/price/); [Teramind vendor article](https://www.teramind.co/blog/time-doctor-vs-teramind/); [Insightful pricing](https://www.insightful.io/pricing). Accessed 21 September 2026.\n\nNON-RENDERING — The table and every note remain one comparison block. No winner treatment, feature ticks, savings percentages, struck-through competitor totals, or implied plan parity. Exact Hubstaff cents are retained. Teramind uses only the AWS channel for all three computed cells. Outrider supplied primary-source retrieval; this authoring pass recalculates the math but does not claim a fresh web retrieval.\n\n\n## P11 — Proposed Teamvista pricing and complete operating cost\n\nID: TV.RUI.P11.eyebrow\n> Proposed annual software scope\n\nID: TV.RUI.P11.h2\n> Add tracked team members without adding a per-seat software charge.\n\nID: TV.RUI.P11.price\n> $2,000/year proposed\n\nID: TV.RUI.P11.accounts\n> The proposed software scope includes unlimited tracked team-member accounts, with no per-seat software pricing.\n\nID: TV.RUI.P11.exclusions\n> Customer-provided storage and infrastructure costs are separate. Unlimited does not include storage, retention, bandwidth, environments, onboarding, support, or processing capacity.\n\nID: TV.RUI.P11.body\n> The proposal separates the software fee from the infrastructure and work needed to operate it. That gives you a specific model to evaluate—not an all-in cost promise.\n\nID: TV.RUI.P11.scope\n> Confirm tracked-account and admin-account scope, environments, fair use, onboarding, support, renewal, taxes and cancellation terms in writing before committing. No production access or rollout is included merely by making a request.\n\nID: TV.RUI.P11.cost-heading\n> Price the operating setup, not just the software.\n\nID: TV.RUI.P11.cost-body\n> Include the license, hosting, database, screenshot storage, endpoint rollout, support, and internal review effort. Assess AI costs and access separately if AI is being considered. Get responsibilities, limits, and exclusions in writing before deciding to proceed.\n\nID: TV.RUI.P11.mcp-scope\n> External MCP access remains outside the proposed founding offer until it passes a separate readiness and approval gate.\n\nID: TV.RUI.P11.cta\n> Request a fit-and-technical evaluation\n\nID: TV.RUI.P11.support\n> Bring one recent review question and the requirements a replacement would need to meet. A request does not grant production access.\n\n\n## P12 — Customer-provided storage and the access boundary\n\nID: TV.RUI.P12.eyebrow\n> Storage and operating responsibility\n\nID: TV.RUI.P12.h2\n> Designed for customer-controlled storage.\n\nID: TV.RUI.P12.body\n> The proposed delivery model uses storage and related infrastructure that your organization provides and pays for, with screenshot storage and retention intended to remain under your organization’s control, subject to the agreed deployment architecture.\n\nID: TV.RUI.P12.status\n> Proposed delivery model—not a verified current capability.\n\nID: TV.RUI.P12.bridge\n> Agree where the records would live, who would operate the system and what access must be allowed or denied. Make those answers part of the evaluation—not assumptions behind a hosting label.\n\nID: TV.RUI.P12.storage-title\n> Storage you provide\n\nID: TV.RUI.P12.storage-body\n> Set the required storage, retention, bandwidth and processing scope. These costs and responsibilities are separate from the proposed software fee.\n\nID: TV.RUI.P12.access-title\n> Access you verify\n\nID: TV.RUI.P12.access-body\n> Hosting location alone would not establish who can access records. Deployment ownership, service access, external processing, retention, and deletion need separate examination.\n\nID: TV.RUI.P12.retention-title\n> Retention you define—and test\n\nID: TV.RUI.P12.retention-body\n> Define how long session and screenshot records are needed, who owns the policy, and what deletion must cover. Cleanup settings are a starting point for that discussion.\n\nID: TV.RUI.P12.retention-boundary\n> A configured retention window is not proof of deletion from every copy. Storage, backups, logs, and external processing need separate examination.\n\nID: TV.RUI.P12.authorization\n> Our own product review found authorization issues that are still open. They must be fixed and independently tested before any customer runs this against real workforce data. Evaluate actual access paths, external processing, retention, and deletion—not just the settings displayed on screen.\n\n\n## P13 — Fit, no-fit and buying responsibilities\n\nID: TV.RUI.P13.eyebrow\n> Fit for your company\n\nID: TV.RUI.P13.h2\n> A fit for the review problem—and the team that has to run it.\n\nID: TV.RUI.P13.body\n> The initial evaluation is aimed at Windows-first service companies with 40–80 tracked people and an existing transparent screenshot-review process. Bring a recent review problem, the budget owner, and the people responsible for technical deployment and workforce policy.\n\nID: TV.RUI.P13.fit-title\n> Worth evaluating when…\n\nID: TV.RUI.P13.fit-one\n> You already use transparent screenshot-based review and can name a recent question your current process struggled to handle.\n\nID: TV.RUI.P13.fit-two\n> Your capture requirements are Windows-first, and you can assess the workstation behavior before rollout.\n\nID: TV.RUI.P13.fit-three\n> You want to assess a flat software fee alongside customer-provided infrastructure and clearly assigned operating responsibilities.\n\nID: TV.RUI.P13.no-fit-title\n> Not the right starting point when…\n\nID: TV.RUI.P13.no-fit-one\n> You want covert monitoring, an automatic verdict about an employee, or a score that stands in for work quality.\n\nID: TV.RUI.P13.no-fit-two\n> You require established macOS/Linux telemetry parity, capture on more than three monitors, ready-to-use AI integrations, or a verified vendor-inaccessible deployment now.\n\nID: TV.RUI.P13.no-fit-three\n> You need an all-inclusive managed service or guaranteed total-cost saving rather than an evaluation of written software and operating scope.\n\nID: TV.RUI.P13.boundary\n> Teamvista is not a fit for covert monitoring or automated employment decisions. Purchasing software does not establish workforce acceptance or legal approval.\n\nID: TV.RUI.P13.owners-title\n> Owners and operations\n\nID: TV.RUI.P13.owners-body\n> Bring the review problem that could justify a switch. Decide what a replacement must demonstrate—not just what it must cost.\n\nID: TV.RUI.P13.managers-title\n> Managers\n\nID: TV.RUI.P13.managers-body\n> Identify the person, period and records needed to prepare a specific question. Keep human follow-up separate from an alert status.\n\nID: TV.RUI.P13.hr-title\n> HR and workforce\n\nID: TV.RUI.P13.hr-body\n> Define the purpose of collection, what workers are told, and how they can question a record.\n\nID: TV.RUI.P13.it-title\n> IT and security\n\nID: TV.RUI.P13.it-body\n> Assess endpoints, access paths, external processing, retention and deletion. Require remediation and independent access testing before real workforce data is used.\n\nID: TV.RUI.P13.finance-title\n> Finance and procurement\n\nID: TV.RUI.P13.finance-body\n> Compare the written software scope, infrastructure charges, onboarding, support and internal effort. A lower license fee alone is not a lower total cost.\n\n\n## P14 — Trust and operating readiness\n\nID: TV.RUI.P14.eyebrow\n> Before rollout\n\nID: TV.RUI.P14.h2\n> Know what must be true before you put real records into it.\n\nID: TV.RUI.P14.body\n> A useful review screen is only part of the decision. Establish who would operate the system, what behavior needs testing, and which costs belong in the comparison.\n\nID: TV.RUI.P14.windows-heading\n> Check the Windows workflow.\n\nID: TV.RUI.P14.windows-body\n> Teamvista's desktop capture workflow is Windows-first. Equivalent macOS and Linux telemetry is not established. Capture with more than three monitors is outside this evaluation's desktop scope.\n\nID: TV.RUI.P14.windows-detail\n> The implementation skips capture when a workstation is locked or has more than three monitors. A download or version listing does not establish feature parity or a successful update.\n\nID: TV.RUI.P14.access-heading\n> Resolve access before introducing customer records.\n\nID: TV.RUI.P14.access-body\n> Our own product review found authorization issues that are still open. They must be fixed and independently tested before any customer runs this against real workforce data. Evaluate actual access paths, external processing, retention, and deletion—not just the settings displayed on screen.\n\nID: TV.RUI.P14.controls\n> The HR application includes role and assignment controls and multi-factor authentication settings. Their presence does not establish protected access across the backend, screenshot, and AI/MCP paths.\n\nID: TV.RUI.P14.tests\n> Examine review screens, backend services, administrative access, screenshot links and AI tools. Require evidence for allowed access and for attempts that must be denied.\n\nID: TV.RUI.P14.workforce-heading\n> Make transparent use a requirement.\n\nID: TV.RUI.P14.workforce-body\n> Define an appropriate collection purpose, workforce notice, and a way to question records. A software purchase, an internal-use example, or an evaluation request does not provide legal approval or workforce consent.\n\nID: TV.RUI.P14.operations-heading\n> Assign the work behind the workflow.\n\nID: TV.RUI.P14.operations-body\n> Identify who would roll out endpoints, maintain application and infrastructure services, manage access, review exceptions and handle support. Agree what your team owns and what any written delivery scope includes.\n\n\n## P15 — AI/MCP maturity, separate from the core offer\n\nID: TV.RUI.P15.eyebrow\n> Platform · Private evaluation\n\nID: TV.RUI.P15.h2\n> Explore AI-assisted review. Keep the judgment with people.\n\nID: TV.RUI.P15.body\n> Start with a work-review question, then evaluate how an AI tool would use the relevant records. Teamvista's external MCP interface and owner-facing assistant are separate evaluation surfaces—not ready-to-use integrations or automated decisions about people.\n\nID: TV.RUI.P15.mcp-label\n> MCP interface for AI tools — Private Preview\n\nID: TV.RUI.P15.mcp-body\n> Teamvista includes a Model Context Protocol (MCP) server interface, currently in private evaluation. Its implementation defines six tools for review data. Client connections and live tool behavior have not been verified.\n\nID: TV.RUI.P15.tools-title\n> Tools defined in the implementation\n\nID: TV.RUI.P15.tool-1\n> get_employees_list\n\nID: TV.RUI.P15.tool-2\n> get_employee_metrics\n\nID: TV.RUI.P15.tool-3\n> get_employee_logs\n\nID: TV.RUI.P15.tool-4\n> get_screenshots_metadata\n\nID: TV.RUI.P15.tool-5\n> get_screenshot_urls\n\nID: TV.RUI.P15.tool-6\n> get_policy_violations\n\nID: TV.RUI.P15.tools-boundary\n> These definitions cover employee records, metrics, activity logs, screenshot metadata and URL requests, and policy alerts. They do not establish working retrieval or safely scoped access.\n\nID: TV.RUI.P15.read-only-boundary\n> Read-only describes the implemented tool operations, not verified access control.\n\nID: TV.RUI.P15.requirements-heading\n> Verify the connection, access, and data flow before use.\n\nID: TV.RUI.P15.requirements-body\n> Compatibility with any named AI client is not established, and neither is safely scoped access to your records. Authorization issues are open; they must be fixed and independently tested before any customer runs this against real workforce data. AI processing can involve external providers; do not assume records stay within your environment.\n\nID: TV.RUI.P15.scope\n> External MCP access remains outside the proposed founding offer until it passes a separate readiness and approval gate.\n\nID: TV.RUI.P15.assistant-label\n> Owner-facing AI assistant — Internal Evaluation\n\nID: TV.RUI.P15.assistant-body\n> Chat and report interfaces are present in the owner application. Their runtime behavior has not been verified. This is an owner-facing evaluation surface, not an AI assistant in the HR application.\n\nID: TV.RUI.P15.request-boundary\n> Requesting an evaluation does not enable an AI connection or authorize the use of workforce records.\n\n\n## P16 — Complete FAQ\n\nID: TV.RUI.P16.eyebrow\n> Questions\n\nID: TV.RUI.P16.h2\n> What to know before you evaluate.\n\nID: TV.RUI.P16.faq-01-q\n> We already have monitoring. Why consider Teamvista?\n\nID: TV.RUI.P16.faq-01-a\n> Start with a recent review your current process struggled to handle. Compare the records you can inspect, the follow-up required, and the full operating commitment. If your current setup already meets the need, Teamvista has to earn a reason to replace it.\n\nID: TV.RUI.P16.faq-02-q\n> What should we include in the cost comparison?\n\nID: TV.RUI.P16.faq-02-a\n> Compare the written software scope, provider charges, onboarding and support responsibilities, and your team's operating effort. Assess any proposed AI usage separately. A license fee alone is not the total cost, and a different setup is not proof of savings.\n\nID: TV.RUI.P16.faq-03-q\n> What does Teamvista record?\n\nID: TV.RUI.P16.faq-03-a\n> The Windows desktop implementation captures periodic screenshots and records activity and app/window context. The review views include sessions, attendance, app and link history, and alerts. These are available records—not a continuous or complete account of someone's work.\n\nID: TV.RUI.P16.faq-04-q\n> Is this employee monitoring?\n\nID: TV.RUI.P16.faq-04-a\n> Yes. Screenshot and activity collection are part of Teamvista. The intended fit is an existing, transparent work-review process—not covert monitoring. Define an appropriate purpose, workforce notice, and a way for people to question the records before considering rollout.\n\nID: TV.RUI.P16.faq-05-q\n> Can an activity score tell us who is doing good work?\n\nID: TV.RUI.P16.faq-05-a\n> No. Recorded activity does not establish intent, work quality, or everything that happens away from the screen. Activity and risk indicators are prompts for human review, not performance verdicts or health diagnoses.\n\nID: TV.RUI.P16.faq-06-q\n> Who can access screenshots and records?\n\nID: TV.RUI.P16.faq-06-a\n> That requires a tested answer for the intended deployment. The HR application includes role and assignment controls, but those controls do not establish protected access across the backend and AI/MCP paths. Unresolved authorization issues must be fixed and independently tested before any customer runs this against real workforce data.\n\nID: TV.RUI.P16.faq-07-q\n> Can we connect our AI tools?\n\nID: TV.RUI.P16.faq-07-a\n> The MCP interface is in Private Preview; the owner-facing assistant is in Internal Evaluation. Client interoperability and safely scoped access are not verified. External MCP access remains outside the proposed founding offer until it passes a separate readiness and approval gate.\n\nID: TV.RUI.P16.faq-08-q\n> Does the desktop workflow support Windows, macOS, and Linux equally?\n\nID: TV.RUI.P16.faq-08-a\n> No equivalent telemetry is established across those platforms. Start with the Windows workflow. Capture with more than three monitors is outside the current evaluation scope; confirm the behavior required by your workstations before rollout.\n\nID: TV.RUI.P16.faq-09-q\n> Can we host it ourselves and keep records away from vendors?\n\nID: TV.RUI.P16.faq-09-a\n> Customer-account deployment is a proposed delivery model, not a verified current capability. Hosting location alone would not establish who can access records. Deployment ownership, service access, external processing, retention, and deletion need separate examination.\n\nID: TV.RUI.P16.faq-10-q\n> Do an alert's status or a settings change prove the issue is handled?\n\nID: TV.RUI.P16.faq-10-a\n> No. Acknowledgment and resolution describe review status, not a solved workforce concern. Configuration controls do not establish successful saving, rule enforcement, notification delivery, or deletion. Test the behavior you need before relying on it.\n\n\n## P17 — Closing evaluation invitation\n\nID: TV.RUI.P17.eyebrow\n> Start with one review\n\nID: TV.RUI.P17.h2\n> Bring one question your current process struggles to answer.\n\nID: TV.RUI.P17.body\n> Describe the period, the records your team checked, and what remained unclear. Use that example to assess Teamvista's review workflow, the requirements it would need to meet, and the operating commitment behind a switch.\n\nID: TV.RUI.P17.preparation\n> Keep employee names, screenshots, and confidential work content out of the initial request. You can describe the problem without sharing the records.\n\nID: TV.RUI.P17.cta\n> Request a fit-and-technical evaluation\n\nID: TV.RUI.P17.support\n> A request is a starting point for evaluation—not production access, a purchase, or an approved rollout.\n\n\n## P18 — Footer\n\nID: TV.RUI.P18.brand\n> Teamvista\n\nID: TV.RUI.P18.descriptor\n> Work-evidence review software for distributed service companies.\n\nID: TV.RUI.P18.product\n> Product\n\nID: TV.RUI.P18.pricing\n> Pricing & scope\n\nID: TV.RUI.P18.storage\n> Storage & access\n\nID: TV.RUI.P18.faq\n> Questions\n\nID: TV.RUI.P18.evaluation\n> Evaluation\n\n",
+    "origin": "Frozen pre-edit in-memory snapshot independently matched to the prior reviewed full-file identity before patching."
+  },
+  "comparison_math": [
+    {
+      "vendor": "teamvista",
+      "basis": "flat",
+      "rate": "2000",
+      "headcounts": [
+        40,
+        60,
+        80
+      ],
+      "annual_software_usd": [
+        "2000",
+        "2000",
+        "2000"
+      ],
+      "source_url": null,
+      "matches_packet": true,
+      "verified_against_final_manuscript": true
+    },
+    {
+      "vendor": "hubstaff",
+      "basis": "monthly",
+      "rate": "4.99",
+      "headcounts": [
+        40,
+        60,
+        80
+      ],
+      "annual_software_usd": [
+        "2395.20",
+        "3592.80",
+        "4790.40"
+      ],
+      "source_url": "https://hubstaff.com/hubstaff-pricing-guide",
+      "matches_packet": true,
+      "verified_against_final_manuscript": true
+    },
+    {
+      "vendor": "timedoctor",
+      "basis": "yearly",
+      "rate": "80",
+      "headcounts": [
+        40,
+        60,
+        80
+      ],
+      "annual_software_usd": [
+        "3200",
+        "4800",
+        "6400"
+      ],
+      "source_url": "https://support.timedoctor.com/knowledge/understanding-time-doctor-pricing-plans",
+      "matches_packet": true,
+      "verified_against_final_manuscript": true
+    },
+    {
+      "vendor": "insightful",
+      "basis": "monthly",
+      "rate": "8",
+      "headcounts": [
+        40,
+        60,
+        80
+      ],
+      "annual_software_usd": [
+        "3840",
+        "5760",
+        "7680"
+      ],
+      "source_url": "https://www.insightful.io/pricing",
+      "matches_packet": true,
+      "verified_against_final_manuscript": true
+    },
+    {
+      "vendor": "activtrak",
+      "basis": "monthly",
+      "rate": "10",
+      "headcounts": [
+        40,
+        60,
+        80
+      ],
+      "annual_software_usd": [
+        "4800",
+        "7200",
+        "9600"
+      ],
+      "source_url": "https://www.activtrak.com/pricing/",
+      "matches_packet": true,
+      "verified_against_final_manuscript": true
+    },
+    {
+      "vendor": "teramind",
+      "basis": "pack5",
+      "rate": "828",
+      "headcounts": [
+        40,
+        60,
+        80
+      ],
+      "annual_software_usd": [
+        "6624",
+        "9936",
+        "13248"
+      ],
+      "source_url": "https://aws.amazon.com/marketplace/pp/prodview-7a2h2xosenknq",
+      "matches_packet": true,
+      "verified_against_final_manuscript": true
+    }
+  ],
+  "source_bindings": [
+    {
+      "key": "S1",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_PUBLICATION_READY_COPY_MANIFEST_2026_09_15.md",
+      "sha256": "6daceb336397ec4485f6d2cb9fab95d7eef7980912371b32003afb14a7458c46"
+    },
+    {
+      "key": "S1I",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_PUBLICATION_COPY_STRING_INVENTORY_2026_09_15.json",
+      "sha256": "3eda7a80709052975b333ef10e861b1f6153094009dd1b75681b9e43d9f3270a"
+    },
+    {
+      "key": "S2",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_CLICKUP_STRUCTURE_COPY_V1_2026_09_17.md",
+      "sha256": "3bc3b8589a42c54f360d2adfe5cfe4463f0ce0b0119e9b65f5adca7520397c8f"
+    },
+    {
+      "key": "S3",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_PRIVACY_FLAT_PRICE_CLAIM_GATE_2026_09_21.md",
+      "sha256": "041112b841fe7429e3419f8a8579e2ee225a8416cd670c02b29d1c6c290395ed"
+    },
+    {
+      "key": "S4",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_PUBLICATION_FACT_MATRIX_2026_09_15.md",
+      "sha256": "23243420ea3d34021749267d51e7ce8f82e6992aa754fdaefc5960318ec556fd"
+    },
+    {
+      "key": "S5",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_AI_MCP_CLAIM_GATE_2026_09_15.md",
+      "sha256": "06c78a47244809fa7e5df7a1086b2f953c51a645cf878c25659e7ef33aa96153"
+    },
+    {
+      "key": "S6",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_REAL_SCREEN_PROVENANCE_LEDGER_2026_09_18.md",
+      "sha256": "963f0d092cacc939b1f5ba7af9ec5ad6dcbad7331f035196ec87fd665ab570b5"
+    },
+    {
+      "key": "S7",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_LIVE_DATA_MARKETING_USE_DECISION_2026_09_10.md",
+      "sha256": "02375bc207be26ee25b10a4cf343329b7ac028d2769200adae877e1979768638"
+    },
+    {
+      "key": "S8",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_LIVE_PORTAL_FEATURE_DISCOVERY_2026_09_10.md",
+      "sha256": "7bb05163cfb20d470d1ccadee4e7a24ec7f165175edeedcb410b88c3a8d3c2e0"
+    },
+    {
+      "key": "S9",
+      "path": "/Users/alimai/.buzz/RESEARCH/TEAMVISTA_COMPETITOR_COMPARISON_PACKET_2026_09_21.md",
+      "sha256": "7d4c5b095509966a522585516817b408993582d24332d44875d8d4807571c21d"
+    }
+  ],
+  "asset_bindings": [
+    {
+      "path": "/Users/alimai/.buzz/OUTBOX/TEAMVISTA_ENTERPRISE_SYSTEM_COMP_2026_09_21/assets/teamvista-real-session-derived.png",
+      "sha256": "a6907c07127d1dfcff79f5022b0aac288954b150d1f8f7bf73a1a3c0402ff624"
+    },
+    {
+      "path": "/Users/alimai/.buzz/OUTBOX/TEAMVISTA_ENTERPRISE_SYSTEM_COMP_2026_09_21/assets/teamvista-real-alerts-derived.png",
+      "sha256": "ceac038cf807b6da1f9d8f857e680f71fa9bc32d5a1ca25c55c54cb8cfbd88af"
+    },
+    {
+      "path": "/Users/alimai/.buzz/OUTBOX/TEAMVISTA_ENTERPRISE_SYSTEM_COMP_2026_09_21/assets/teamvista-real-screenshots-derived.png",
+      "sha256": "e54b731022f9a5715e2f73b96b80ae300c7a70ebfe88a68eefd754bb5dcd68d9"
+    }
+  ],
+  "prior_correction_history": [
+    {
+      "revision": "1.0.1",
+      "manuscript_sha256": "f86a6b7443944d4fb5a2cd5f60b9228d851ef9b659d6058a4ce39496827e2dc1",
+      "correction": {
+        "type": "source-binding only",
+        "source": "Sol supplied corrected September 21 v5 asset paths and SHA-256 values in this thread",
+        "changed_visible_ids": [],
+        "visible_region_byte_identical": true,
+        "visible_catalog_order_unchanged": true,
+        "accessibility_and_page_metadata_byte_identical": true,
+        "changes": [
+          "Version metadata 1.0 → 1.0.1",
+          "Appendix D: all three selected candidate paths/hashes rebound to corrected v5 sources",
+          "Appendix A/E: S6 explicitly historical lineage, not current asset identity",
+          "Superseded source/manuscript status recorded outside visible copy"
+        ]
+      },
+      "supersedes": {
+        "manuscript_sha256": "6b1e44d61761642e15cf6c2609c66851416fd7f1de99127560e5228873b36d70",
+        "status": "superseded by source-binding correction"
+      }
+    }
+  ],
+  "downstream_handoff": {
+    "owner": "Sol",
+    "package": "/Users/alimai/.buzz/OUTBOX/TEAMVISTA_REPLIT_LONG_PAGE_PACKAGE_2026_09_21/",
+    "state": "Not regenerated or edited by Alan; requires Sol regeneration and re-pin after this freeze. Prior package must not be treated as approved current build copy.",
+    "claim_PASS_vs_build_clearance": "Historical claim PASS is not build approval."
+  },
+  "scope_limits": [
+    "Only the companion verification JSON written in this finalization pass.",
+    "No manuscript, S1/source lineage, comparison packet, asset or Replit package edits in this pass.",
+    "No new visual QA, web retrieval, runtime/security testing, intake activation or publication.",
+    "Copy Chief and Challenger independently re-gate this declared identity; no new reviewer verdict claimed."
+  ],
+  "next_owner": "Sol → Copy Chief/Challenger re-gate, then Sol-owned package regeneration and binding"
+}
