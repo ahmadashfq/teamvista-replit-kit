@@ -1,8 +1,8 @@
-# Replit kit — what to upload and when
+# Replit kit
 
-This folder is everything Replit Agent needs besides the prompts. Upload files by dragging them into the Replit file tree at the exact paths each prompt names.
+This folder is everything Replit Agent needs besides the prompts. It is published at https://github.com/ahmadashfq/teamvista-replit-kit and the prompts fetch each file by a commit-pinned raw URL with a hash check, so nothing needs uploading by hand. The table below shows where each file lands in the Replit project and which prompt fetches it.
 
-| File | Upload to (in Replit) | When |
+| File | Lands at (in Replit) | Fetched by |
 |---|---|---|
 | `DESIGN.md` | project root | Prompt 1b |
 | `SPEC-MOTION.md` | project root | Prompt 15 (or with DESIGN.md) |
