@@ -35,12 +35,12 @@ Composition: the evidence panel (plate-dark, container left edge to viewport rig
 | 420 | Lead | opacity 0→1, y 8→0 | 360ms |
 | 540 | CTA + secondary + support as one group | opacity 0→1, y 8→0 | 360ms |
 | 620 | D | opacity 0→1 at scale 1, registered | 80ms linear |
-| 700 | D | to `translate(-3%, -5%) scale(1.12)`, `::after` shadow opacity 0→1 | 440ms `--ease-in-out` |
+| 700 | D | to `translate(-3%, -5%) scale(1.06)`, `::after` shadow opacity 0→1 | 440ms `--ease-in-out` |
 | 920→1200 | D brackets | arms draw, corners TL, TR, BR, BL 30ms apart | 190ms each |
 
-Resting state (also reduced-motion, no-JS and first paint): B flat, D lifted at scale 1.12 with shadow, brackets drawn, all text visible. D at 1.12× of a 1.0× base is 0.56× of the 2× master file, so it stays crisp.
+Resting state (also reduced-motion, no-JS and first paint): B flat, D lifted at scale 1.06 with shadow, brackets drawn, all text visible. D at 1.06× of a 1.0× base is 0.53× of the 2× master file, so it stays crisp and inside the legibility band.
 
-First scroll (desktop, motion-ok; `useScroll` target = beat one only, offset `["start start", "end start"]`, clamped): plate y 0→64px inside an `overflow: clip` wrapper sized to beat one and oversized upward (`top: -64px`); B with its caption y 0→32px; D y 0→−24px and scale 1.12→1.15; D brackets 6px inward. Text column: no transform. Nav progress line: opacity 0→1 when the hero bottom passes the header; `scaleX` = page `scrollYProgress`, origin left, never `width`.
+First scroll (desktop, motion-ok; `useScroll` target = beat one only, offset `["start start", "end start"]`, clamped): plate y 0→64px inside an `overflow: clip` wrapper sized to beat one and oversized upward (`top: -64px`); B with its caption y 0→32px; D y 0→−24px and scale 1.06→1.09; D brackets 6px inward. Text column: no transform. Nav progress line: opacity 0→1 when the hero bottom passes the header; `scaleX` = page `scrollYProgress`, origin left, never `width`.
 
 Offer strip (beat two): its 2px ink top rule draws `scaleX` 0→1 from the left over 500ms; at +120ms the whole strip (P01.body, price, fit, descriptor, accounts, exclusions) reveals as one unit. The price is never visible without its qualifications.
 
